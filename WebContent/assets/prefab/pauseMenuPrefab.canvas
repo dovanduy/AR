@@ -1,0 +1,155 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "pauseMenuPrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "6b0c8e0a-7643-48df-98d2-8936d995b7ba",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "ad22cd7d-b5f7-4caf-8ba2-48970860cda7",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "group",
+              "id": "4f68f7ae-c2a7-488c-a6a3-69a0f508e730",
+              "info": {
+                "editorName": "grp_Pause",
+                "editorPublic": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "946192ec-78d0-4695-ad9c-8a93187fb69f",
+                    "asset": "0",
+                    "info": {
+                      "editorName": "pause_BG",
+                      "editorPublic": true,
+                      "x": 25,
+                      "y": 288,
+                      "scale.x": 0.9,
+                      "scale.y": 0.3
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "a8b4151d-ea02-48eb-bb41-2b5989a561b9",
+                    "asset": "1",
+                    "info": {
+                      "editorName": "btn_resume",
+                      "editorPublic": true,
+                      "x": 84,
+                      "y": 379,
+                      "scale.x": 1.2,
+                      "scale.y": 1.2
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "5db9df23-f452-433d-a015-f127f9125205",
+                    "info": {
+                      "editorName": "txt_gamePause_title",
+                      "editorPublic": true,
+                      "x": 342,
+                      "y": 313,
+                      "anchor.x": 0.5,
+                      "text": "GAME PAUSE",
+                      "style.fontSize": 40,
+                      "style.fill": "#feffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "acf1f8ac-083e-4963-aede-79e1fc891040",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "btn_goHome",
+                      "editorPublic": true,
+                      "x": 402,
+                      "y": 373,
+                      "scale.x": 1.2,
+                      "scale.y": 1.2
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "button",
+              "id": "f98f6b05-3180-4377-9b25-bdddddd9569c",
+              "asset": "3",
+              "info": {
+                "editorName": "btn_pause",
+                "editorPublic": true,
+                "x": 587,
+                "y": 1088
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "menu BG"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "bt_resumeon"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "BT_Home_On"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "bt_pause"
+    }
+  },
+  "prefab-table": {}
+}

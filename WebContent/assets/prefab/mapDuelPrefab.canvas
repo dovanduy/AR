@@ -1,0 +1,1523 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "mapDuelPrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "62983f5e-1f74-46bf-b30e-a0b36561052c",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "f8f3e63a-5ee4-420f-929b-94495a3022c5",
+        "info": {
+          "editorName": "group",
+          "editorPublic": true,
+          "setAll": [],
+          "children": [
+            {
+              "type": "group",
+              "id": "531eef2a-5025-4cc6-bafe-4ea76d7d6d6e",
+              "info": {
+                "editorName": "select_Map",
+                "editorPublic": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "2d183092-8cc6-4a48-a01e-45ec23113a38",
+                    "asset": "0",
+                    "info": {
+                      "editorName": "BG_chooseMap",
+                      "x": -9,
+                      "y": 68,
+                      "scale.x": 1.02,
+                      "scale.y": 1.63
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "601b5142-8ae1-408f-bc22-cb6e4bd25dd6",
+                    "asset": "1",
+                    "info": {
+                      "editorName": "choosemap_bar",
+                      "editorPublic": true,
+                      "x": 5,
+                      "y": 78
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "4997e0a0-ac12-4737-98a6-49490d50e95d",
+                    "info": {
+                      "editorName": "_grpChooseMap",
+                      "editorPublic": true,
+                      "y": 100,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "group",
+                          "id": "7fb08260-1842-439c-843e-8b8da7613ef3",
+                          "info": {
+                            "editorName": "MAP_05",
+                            "editorPublic": true,
+                            "x": 1,
+                            "y": 2360,
+                            "scale.x": 1.3,
+                            "scale.y": 1.3,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "atlas-sprite",
+                                "id": "48cc3e90-bd1d-42fe-a1ed-724a59b9b230",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "entry_bar4",
+                                  "x": 39,
+                                  "y": 548
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "3e5620d9-3884-4e6e-b515-f73d65ae2a82",
+                                "asset": "3",
+                                "info": {
+                                  "editorName": "islands_map",
+                                  "x": 45,
+                                  "y": 258
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "9440f579-34d0-46f4-bbc6-8cd893d14a3d",
+                                "info": {
+                                  "editorName": "txt_title_map5",
+                                  "editorPublic": true,
+                                  "x": 205,
+                                  "y": 269,
+                                  "text": "EUROPE",
+                                  "style.fontSize": 35,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "1f16b010-054f-403c-9c17-510a0dc88d63",
+                                "info": {
+                                  "editorName": "txt_entry_fee_map5",
+                                  "editorPublic": true,
+                                  "x": 134,
+                                  "y": 566,
+                                  "text": "Entry fee 30",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "6fbf4630-ae4a-424e-9e0a-6f589f198cd7",
+                                "asset": "4",
+                                "info": {
+                                  "editorName": "diamond5",
+                                  "x": 410,
+                                  "y": 561,
+                                  "scale.x": 0.5,
+                                  "scale.y": 0.5
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "8b4105e7-2eaf-4d73-beb0-69bd9b84dc84",
+                                "info": {
+                                  "editorName": "txt_win_map5",
+                                  "editorPublic": true,
+                                  "x": 134,
+                                  "y": 614,
+                                  "text": "WIN 60",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "053e418a-9fee-442a-861f-9e2e36c18dd9",
+                                "asset": "4",
+                                "info": {
+                                  "editorName": "diamond5",
+                                  "x": 410,
+                                  "y": 617,
+                                  "scale.x": 0.5,
+                                  "scale.y": 0.5
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "2442a40d-5b1b-46ca-a0ab-043b3dd860e9",
+                                "info": {
+                                  "editorName": "txt_win_cost5",
+                                  "editorPublic": true,
+                                  "x": 328,
+                                  "y": 616,
+                                  "text": "60",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "a47beb70-9eee-4c02-84f9-83da99efe88c",
+                                "info": {
+                                  "editorName": "txt_entry_fee_cost5",
+                                  "editorPublic": true,
+                                  "x": 329,
+                                  "y": 564,
+                                  "text": "30",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "ed5d7df4-b8d4-48a6-af13-88bb9ea14d20",
+                          "info": {
+                            "editorName": "MAP_04",
+                            "editorPublic": true,
+                            "x": 1,
+                            "y": 1660,
+                            "scale.x": 1.3,
+                            "scale.y": 1.3,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "image",
+                                "id": "c9c24682-acf4-4ed4-85ac-8162dc7ac6f3",
+                                "asset": "5",
+                                "info": {
+                                  "editorName": "map_Asia",
+                                  "x": 45,
+                                  "y": 258
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "f362dda8-e200-4ff1-a2fe-387ffd6257af",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "entry_bar3",
+                                  "x": 39,
+                                  "y": 548
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "70ae27cb-18ae-48f4-8aac-f314e9e78f33",
+                                "info": {
+                                  "editorName": "txt_title_map4",
+                                  "editorPublic": true,
+                                  "x": 228,
+                                  "y": 269,
+                                  "text": "EUROPE",
+                                  "style.fontSize": 35,
+                                  "style.fill": "#ffffff",
+                                  "style.align": "CENTER"
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "1c187e05-5a77-4dd3-9982-c8a73cda3301",
+                                "info": {
+                                  "editorName": "txt_entry_fee_map4",
+                                  "editorPublic": true,
+                                  "x": 134,
+                                  "y": 566,
+                                  "text": "Entry fee 30",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "f3fac249-9265-495c-a647-2c80dbc476b9",
+                                "asset": "4",
+                                "info": {
+                                  "editorName": "diamond4",
+                                  "x": 410,
+                                  "y": 561,
+                                  "scale.x": 0.5,
+                                  "scale.y": 0.5
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "d20291c1-e327-42e5-a523-e626c769c2ff",
+                                "info": {
+                                  "editorName": "txt_win_map4",
+                                  "editorPublic": true,
+                                  "x": 134,
+                                  "y": 616,
+                                  "text": "WIN 60",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "cb7ff676-3c55-4bd0-9976-cdce493a4edc",
+                                "asset": "4",
+                                "info": {
+                                  "editorName": "diamond4",
+                                  "x": 410,
+                                  "y": 614,
+                                  "scale.x": 0.5,
+                                  "scale.y": 0.5
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "69740ed7-09cd-4f60-bd22-748893d69474",
+                                "info": {
+                                  "editorName": "txt_win_cost4",
+                                  "editorPublic": true,
+                                  "x": 339,
+                                  "y": 614,
+                                  "text": "60",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "9ca4c5ff-c6ef-41ab-961d-e9db94f75d1f",
+                                "info": {
+                                  "editorName": "txt_entry_fee_cost4",
+                                  "editorPublic": true,
+                                  "x": 339,
+                                  "y": 564,
+                                  "text": "30",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "a4af0a0e-58a1-4f0f-aa70-b24920456990",
+                          "info": {
+                            "editorName": "MAP_03",
+                            "editorPublic": true,
+                            "x": 1,
+                            "y": 960,
+                            "scale.x": 1.3,
+                            "scale.y": 1.3,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "atlas-sprite",
+                                "id": "bba9d902-485d-4e90-920d-962bbab495f4",
+                                "asset": "6",
+                                "info": {
+                                  "editorName": "amerias_map",
+                                  "x": 45,
+                                  "y": 258
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "d320b343-b374-4a37-9890-441904f7034a",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "entry_bar2",
+                                  "x": 39,
+                                  "y": 548
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "2b1f3ac7-b326-446e-b346-6947f949bbb0",
+                                "info": {
+                                  "editorName": "txt_title_map3",
+                                  "editorPublic": true,
+                                  "x": 202,
+                                  "y": 275,
+                                  "text": "EUROPE",
+                                  "style.fontSize": 35,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "0d2e3e4d-5ba9-419c-bdf4-4818b37789d3",
+                                "info": {
+                                  "editorName": "txt_entry_fee_map3",
+                                  "editorPublic": true,
+                                  "x": 134,
+                                  "y": 566,
+                                  "text": "Entry fee 30",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "a87cfc2b-aa50-41da-85f4-b22e639f15be",
+                                "info": {
+                                  "editorName": "txt_win_cost3",
+                                  "editorPublic": true,
+                                  "x": 359,
+                                  "y": 614,
+                                  "text": "60",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "cb5cee59-dadb-4c25-81cf-21514704a117",
+                                "asset": "4",
+                                "info": {
+                                  "editorName": "diamond3",
+                                  "x": 410,
+                                  "y": 561,
+                                  "scale.x": 0.5,
+                                  "scale.y": 0.5
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "1fa49086-1fe6-4f76-95b8-1fa604d55aee",
+                                "info": {
+                                  "editorName": "txt_win_map3",
+                                  "editorPublic": true,
+                                  "x": 134,
+                                  "y": 616,
+                                  "text": "WIN 60",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "6ba52461-225c-4a59-a4d5-dce15d2e514f",
+                                "asset": "4",
+                                "info": {
+                                  "editorName": "diamond3",
+                                  "x": 410,
+                                  "y": 614,
+                                  "scale.x": 0.5,
+                                  "scale.y": 0.5
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "8b750599-0244-4db0-8483-2b9836aebaa5",
+                                "info": {
+                                  "editorName": "txt_entry_fee_cost3",
+                                  "editorPublic": true,
+                                  "x": 359,
+                                  "y": 564,
+                                  "text": "30",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "a8de2fbb-1a84-48c7-8b1f-4327f2b891b4",
+                          "info": {
+                            "editorName": "MAP_02",
+                            "editorPublic": true,
+                            "x": 1,
+                            "y": 260,
+                            "scale.x": 1.3,
+                            "scale.y": 1.3,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "atlas-sprite",
+                                "id": "e88af16b-57cd-452c-a93f-2a016c923ce5",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "entry_bar1",
+                                  "x": 39,
+                                  "y": 548
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "884bbb99-5167-4f74-b290-ae9b822ee5b5",
+                                "info": {
+                                  "editorName": "txt_entry_fee_map2",
+                                  "editorPublic": true,
+                                  "x": 134,
+                                  "y": 566,
+                                  "text": "Entry fee 30",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "88e1b501-4ebe-4773-b588-1c55d5694385",
+                                "asset": "4",
+                                "info": {
+                                  "editorName": "diamond2",
+                                  "x": 410,
+                                  "y": 561,
+                                  "scale.x": 0.5,
+                                  "scale.y": 0.5
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "7de24c36-f4ac-4328-a1d2-fc60d77ee8d6",
+                                "info": {
+                                  "editorName": "txt_win_map2",
+                                  "editorPublic": true,
+                                  "x": 134,
+                                  "y": 616,
+                                  "text": "WIN 60",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "d0ab9719-1c7b-4775-a114-d6c40d49195f",
+                                "asset": "4",
+                                "info": {
+                                  "editorName": "diamond2",
+                                  "x": 410,
+                                  "y": 614,
+                                  "scale.x": 0.5,
+                                  "scale.y": 0.5
+                                }
+                              },
+                              {
+                                "type": "image",
+                                "id": "73d98855-c5b5-4036-9429-e3924c7acbe7",
+                                "asset": "7",
+                                "info": {
+                                  "editorName": "map_Africa",
+                                  "x": 45,
+                                  "y": 258
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "760b2c08-3016-4971-a36c-ef796d756b48",
+                                "info": {
+                                  "editorName": "txt_win_cost2",
+                                  "editorPublic": true,
+                                  "x": 359,
+                                  "y": 614,
+                                  "text": "60",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "091ab01d-dcf3-4281-8a85-3dc25b363d31",
+                                "info": {
+                                  "editorName": "txt_title_map2",
+                                  "editorPublic": true,
+                                  "x": 208,
+                                  "y": 269,
+                                  "text": "EUROPE",
+                                  "style.fontSize": 35,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "1d9da215-8a88-44da-9ebc-f5353ec90043",
+                                "info": {
+                                  "editorName": "txt_entry_fee_cost2",
+                                  "editorPublic": true,
+                                  "x": 372,
+                                  "y": 564,
+                                  "text": "30",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "65b2acd0-1d80-4f14-b5ee-807da8fed56c",
+                          "info": {
+                            "editorName": "MAP_01",
+                            "editorPublic": true,
+                            "x": 1,
+                            "y": -440,
+                            "scale.x": 1.3,
+                            "scale.y": 1.3,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "image",
+                                "id": "f5133670-9940-4b70-b161-6739f3d65e88",
+                                "asset": "8",
+                                "info": {
+                                  "editorName": "map_Europe",
+                                  "x": 45,
+                                  "y": 258
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "cab2b36d-8344-4a6a-830c-f0884cb4d9e1",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "entry_bar",
+                                  "x": 39,
+                                  "y": 548
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "f3e6f1d1-1b49-4638-a943-d53bf34e5ed2",
+                                "info": {
+                                  "editorName": "txt_title_map1",
+                                  "editorPublic": true,
+                                  "x": 208,
+                                  "y": 269,
+                                  "text": "EUROPE",
+                                  "style.fontSize": 35,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "0720af66-240a-4afe-9c29-3b7decb6df01",
+                                "info": {
+                                  "editorName": "txt_entry_fee_map1",
+                                  "editorPublic": true,
+                                  "x": 134,
+                                  "y": 566,
+                                  "text": "ENTRY FEE 30",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "6ab11003-1910-4757-8ef1-eaf23d493e5f",
+                                "asset": "4",
+                                "info": {
+                                  "editorName": "diamond",
+                                  "x": 410,
+                                  "y": 562,
+                                  "scale.x": 0.5,
+                                  "scale.y": 0.5
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "cc01c924-57e6-4c1b-8d13-75d6db413072",
+                                "info": {
+                                  "editorName": "txt_win_map1",
+                                  "editorPublic": true,
+                                  "x": 134,
+                                  "y": 617,
+                                  "text": "WIN 60",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "cc65704f-f8d8-4936-9e0e-727449bfbf3e",
+                                "asset": "4",
+                                "info": {
+                                  "editorName": "diamond1",
+                                  "x": 410,
+                                  "y": 615,
+                                  "scale.x": 0.5,
+                                  "scale.y": 0.5
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "56878ee6-5599-45ab-8945-f428bc2c5bc8",
+                                "info": {
+                                  "editorName": "txt_entry_fee_cost1",
+                                  "editorPublic": true,
+                                  "x": 369,
+                                  "y": 564,
+                                  "text": "30",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "id": "e4c7cbb4-c36b-4443-b0a5-fc9dbb5cc4b4",
+                                "info": {
+                                  "editorName": "txt_win_cost1",
+                                  "editorPublic": true,
+                                  "x": 369,
+                                  "y": 614,
+                                  "text": "60",
+                                  "style.fontSize": 27,
+                                  "style.fill": "#ffffff"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "d20ec5f5-554a-4b15-8dc8-827fdd29db23",
+                          "asset": "9",
+                          "info": {
+                            "editorName": "button_",
+                            "editorShow": false,
+                            "x": 83,
+                            "y": 3119,
+                            "alpha": 0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "0efc7bf6-a1a4-42c2-bc26-51dc98b4a8df",
+                    "info": {
+                      "editorName": "_grp_Avatar_Choose_Map",
+                      "editorPublic": true,
+                      "editorShow": false,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "atlas-sprite",
+                          "id": "a4301ed2-2149-419c-922d-f785c1039311",
+                          "asset": "10",
+                          "info": {
+                            "editorName": "avatar_bar",
+                            "x": 2,
+                            "y": 70
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "98116d29-586f-4b9b-af50-958e34c87056",
+                          "asset": "11",
+                          "info": {
+                            "editorName": "avatar_frame1",
+                            "editorPublic": true,
+                            "x": 454,
+                            "y": 117
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "4d777d4b-ae75-428a-89a4-71ab530a907c",
+                          "asset": "11",
+                          "info": {
+                            "editorName": "avatar_frame",
+                            "editorPublic": true,
+                            "x": 76,
+                            "y": 117
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "b40c0f3a-22cd-4ad6-bc84-f0dbcf67a4cb",
+                          "asset": "12",
+                          "info": {
+                            "editorName": "other_Picture",
+                            "x": 534,
+                            "y": 198,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "image",
+                          "id": "49d2133b-b66c-46a5-b61d-23467cb4b647",
+                          "asset": "13",
+                          "info": {
+                            "editorName": "profile_Picture",
+                            "editorPublic": true,
+                            "x": 156,
+                            "y": 197,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "fafae1ca-94c6-46d3-bd38-06f255ee360c",
+                          "info": {
+                            "editorName": "txt_other_player_name",
+                            "editorPublic": true,
+                            "x": 472,
+                            "y": 303,
+                            "anchor.x": 0.5,
+                            "text": "Player",
+                            "style.fontSize": 30,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "6e5e5538-6d42-4bb8-8624-76e3d9dadfae",
+                          "info": {
+                            "editorName": "txt_vs1",
+                            "x": 288,
+                            "y": 156,
+                            "text": "VS",
+                            "style.fontSize": 80,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "55504500-df9d-4f26-9553-42dbc7e306eb",
+                          "info": {
+                            "editorName": "txt_user_Name",
+                            "editorPublic": true,
+                            "x": 76,
+                            "y": 303,
+                            "anchor.x": 0.5,
+                            "text": "Random Player",
+                            "style.fontSize": 30,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "ea94a2b0-8b9b-492a-85bd-2d95bd3f2004",
+                    "info": {
+                      "editorName": "txt_chooseMap_title",
+                      "editorPublic": true,
+                      "x": 292,
+                      "y": 109,
+                      "anchor.x": 0.5,
+                      "text": "CHOOSE MAPS",
+                      "style.fontSize": 50,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "6cb03317-3550-4c8d-9f7f-0e75ab557c5d",
+                    "asset": "14",
+                    "info": {
+                      "editorName": "btn_close_button_duelMap",
+                      "editorPublic": true,
+                      "x": 616,
+                      "y": 98
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "466c2223-1128-4852-91a8-381a4f702e8b",
+                    "info": {
+                      "editorName": "_grp_Not_Enough_gems",
+                      "editorPublic": true,
+                      "x": 3093,
+                      "y": -683,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "image",
+                          "id": "833e55e8-4bdc-40d2-8db3-99cad0bb9ad4",
+                          "asset": "15",
+                          "info": {
+                            "editorName": "BG_not_enough_gems",
+                            "editorPublic": true,
+                            "x": 13,
+                            "y": 247,
+                            "scale.y": 1.1
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "5728a6b6-1af9-4919-af8e-76a8a4a4e3fb",
+                          "info": {
+                            "editorName": "txt_not_enough_gem",
+                            "editorPublic": true,
+                            "x": 164,
+                            "y": 301,
+                            "anchor.x": 0.5,
+                            "text": "NOT ENOUGH GEMS",
+                            "style.fontSize": 35,
+                            "style.fill": "#ffffff"
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "aad34dd5-faef-4ce0-8111-7dac8e184c3d",
+                          "asset": "9",
+                          "info": {
+                            "editorName": "btn_watchVideo",
+                            "editorPublic": true,
+                            "x": 55,
+                            "y": 736,
+                            "scale.x": 0.5,
+                            "scale.y": 0.6
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "6e5d798f-19a5-4af8-8962-dd54d198a8c4",
+                          "asset": "9",
+                          "info": {
+                            "editorName": "btn_playSingle",
+                            "editorPublic": true,
+                            "x": 368,
+                            "y": 735,
+                            "scale.x": 0.5,
+                            "scale.y": 0.6
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "09bb9e09-3b0f-4919-b483-2880212116f1",
+                          "asset": "14",
+                          "info": {
+                            "editorName": "btn_close_enough_gem",
+                            "editorPublic": true,
+                            "x": 572,
+                            "y": 281
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "212115c5-05ba-4840-9c82-b305adf28cd2",
+                          "info": {
+                            "editorName": "txt_play_single_nofti",
+                            "editorPublic": true,
+                            "x": 111,
+                            "y": 553,
+                            "anchor.x": 0.5,
+                            "text": "Play the single match to get some more !",
+                            "style.fontSize": 25,
+                            "style.fill": "#ffffff"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "a3d28cbe-6239-4f16-a926-fefe5f961c41",
+                          "info": {
+                            "editorName": "txt_low_gems",
+                            "editorPublic": true,
+                            "x": 180,
+                            "y": 430,
+                            "anchor.x": 0.5,
+                            "text": "You are low on gems",
+                            "style.fontSize": 35,
+                            "style.fill": "#4fe8ff"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "fc08c9de-535c-49ca-907e-68dbd443fcb8",
+                          "info": {
+                            "editorName": "txt_playSingle",
+                            "editorPublic": true,
+                            "x": 520,
+                            "y": 756,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5,
+                            "text": "Play Single",
+                            "style.fontSize": 30,
+                            "style.fill": "#ffffff"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "61d4be3a-9339-4fc0-a445-2577ccfbafe9",
+                          "info": {
+                            "editorName": "txt_watch_Video_nofti",
+                            "editorPublic": true,
+                            "x": 165,
+                            "y": 490,
+                            "anchor.x": 0.5,
+                            "text": "Watch video to get some more !",
+                            "style.fontSize": 25,
+                            "style.fill": "#ffffff"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "63f7edbb-f1a5-4103-a0e1-02246cf82363",
+                          "info": {
+                            "editorName": "txt_watch_Video",
+                            "editorPublic": true,
+                            "x": 199,
+                            "y": 756,
+                            "anchor.x": 0.5,
+                            "text": "Watch Video",
+                            "style.fontSize": 30,
+                            "style.fill": "#ffffff"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "509f7413-ba27-49bc-877b-451e1da10658",
+              "info": {
+                "editorName": "avatar_wait",
+                "editorPublic": true,
+                "x": 1302,
+                "y": -451,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "7a841a6f-011c-454a-9d2a-d9d7af505345",
+                    "asset": "16",
+                    "info": {
+                      "editorName": "BG_duel_wait",
+                      "x": -12,
+                      "y": 69
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "c1885d3d-4a15-4855-a595-706b8642baf3",
+                    "asset": "17",
+                    "info": {
+                      "editorName": "avatar_frame3",
+                      "editorPublic": true,
+                      "x": 64,
+                      "y": 114
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "7dc2d51f-f5a4-45d4-90ed-860d96dc7bf1",
+                    "info": {
+                      "editorName": "txt_other_player_name_wait",
+                      "editorPublic": true,
+                      "x": 533,
+                      "y": 295,
+                      "anchor.x": 0.5,
+                      "text": "Random",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "b9c2176f-5455-48d1-aff0-937ad6c24729",
+                    "info": {
+                      "editorName": "txt_user_Name_wait",
+                      "editorPublic": true,
+                      "x": 64,
+                      "y": 295,
+                      "anchor.x": 0.5,
+                      "text": "Random Player",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "dfb59ac2-2330-4064-8b18-261a40d07cff",
+                    "info": {
+                      "editorName": "txt_vs",
+                      "x": 292,
+                      "y": 156,
+                      "text": "VS",
+                      "style.fontSize": 80,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "e378ae6e-140e-435c-9664-b72068551cf1",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "profile_Picture_wait",
+                      "editorPublic": true,
+                      "x": 155,
+                      "y": 199,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "7f0a2e9c-4cdd-49b4-bf6f-3222074501c4",
+                    "asset": "17",
+                    "info": {
+                      "editorName": "avatar_frame2",
+                      "editorPublic": true,
+                      "x": 440,
+                      "y": 112
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "6dc797e9-04de-433f-bd32-2ac6f9a1dbc0",
+                    "info": {
+                      "editorName": "_grp_gems_infor",
+                      "editorPublic": true,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "atlas-sprite",
+                          "id": "a9570989-e9f1-44aa-90c8-8053a9ef1384",
+                          "asset": "18",
+                          "info": {
+                            "editorName": "prize_bar",
+                            "x": 6,
+                            "y": 433
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "7227c84b-b4f3-4416-9b98-c9ca51161482",
+                          "info": {
+                            "editorName": "txt_prize",
+                            "x": 297,
+                            "y": 456,
+                            "text": "PRIZE",
+                            "style.fontSize": 40,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "aaeb0ed1-eead-49a3-a00c-1efca3976bfd",
+                          "info": {
+                            "editorName": "txt_gem_total",
+                            "editorPublic": true,
+                            "x": 236,
+                            "y": 537,
+                            "text": "140K",
+                            "style.fontSize": 50,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "ee4fe134-1abd-4ff6-90f0-39c7e6be937a",
+                          "asset": "4",
+                          "info": {
+                            "editorName": "diamond_total",
+                            "editorPublic": true,
+                            "x": 339,
+                            "y": 531
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "adf339bc-815a-4437-a24c-19500d5a2d73",
+                          "info": {
+                            "editorName": "txt_gem_02",
+                            "editorPublic": true,
+                            "x": 482,
+                            "y": 356,
+                            "text": "140k",
+                            "style.fontSize": 30,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "ebf2acc0-5086-4a6d-b137-4b7c115bde89",
+                          "asset": "4",
+                          "info": {
+                            "editorName": "diamond7",
+                            "x": 546,
+                            "y": 356,
+                            "scale.x": 0.5,
+                            "scale.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "8b2821ca-1ed4-4125-a5cc-bce0b6412391",
+                          "info": {
+                            "editorName": "txt_gem_01",
+                            "editorPublic": true,
+                            "x": 121,
+                            "y": 356,
+                            "text": "140K",
+                            "style.fontSize": 30,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "bece4801-5d9b-4f0b-9e32-32b65c21f0af",
+                          "asset": "4",
+                          "info": {
+                            "editorName": "diamond6",
+                            "x": 185,
+                            "y": 357,
+                            "scale.x": 0.5,
+                            "scale.y": 0.5
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "0620ff40-97c3-40ec-8ae7-c6e96204364a",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "other_Picture_wait",
+                      "editorPublic": true,
+                      "x": 533,
+                      "y": 198,
+                      "scale.x": 0.95,
+                      "scale.y": 0.95,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "8fc21c1c-7d20-49df-b2e0-e1248e1045a8",
+                    "info": {
+                      "editorName": "_grp_wait_joinRoom",
+                      "editorPublic": true,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "button",
+                          "id": "6f6ed608-de9a-48ec-a4b7-2e7fa6ed9caf",
+                          "asset": "9",
+                          "info": {
+                            "editorName": "btn_Cancel_duel",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": 82,
+                            "y": 479
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "bc301985-c730-4d49-b034-b93e11eac497",
+                          "info": {
+                            "editorName": "txt_cancel_duel_mode",
+                            "editorPublic": true,
+                            "x": 354,
+                            "y": 512,
+                            "anchor.x": 0.5,
+                            "text": "Cancel",
+                            "style.fontSize": 50,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "7e930b6d-70c5-47d5-8aed-26f42995b83c",
+                          "info": {
+                            "editorName": "txt_minute",
+                            "x": 325,
+                            "y": 335,
+                            "anchor.x": 0.5,
+                            "text": "0 :",
+                            "style.fontSize": 30,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "81ee088b-8037-46f2-a38a-a307134505b5",
+                          "info": {
+                            "editorName": "txt_second",
+                            "editorPublic": true,
+                            "x": 367,
+                            "y": 335,
+                            "anchor.x": 0.5,
+                            "text": "45",
+                            "style.fontSize": 30,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "4cde3ad4-3d50-4092-b8d0-9fbeb4bf6c24",
+                          "info": {
+                            "editorName": "txt_infor_wait",
+                            "editorPublic": true,
+                            "x": 379,
+                            "y": 387,
+                            "anchor.x": 0.5,
+                            "text": "Searching for the opponent\u2026",
+                            "style.fontSize": 30,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "845e4ce2-316a-4ed6-aae2-a115926edc79",
+                    "info": {
+                      "editorName": "_grp_accept_challege",
+                      "editorPublic": true,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "button",
+                          "id": "3952addf-09c0-4805-9d71-531157fae775",
+                          "asset": "19",
+                          "info": {
+                            "editorName": "btn_refuse",
+                            "editorPublic": true,
+                            "x": 18,
+                            "y": 502,
+                            "scale.x": 0.6
+                          }
+                        },
+                        {
+                          "type": "button",
+                          "id": "07fea1b1-ae9d-47f5-b10a-15781a736584",
+                          "asset": "19",
+                          "info": {
+                            "editorName": "btn_accept",
+                            "editorPublic": true,
+                            "x": 348,
+                            "y": 502,
+                            "scale.x": 0.6
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "5775ca1b-fd67-47bc-a892-67a44b3762d6",
+                          "info": {
+                            "editorName": "txt_accept",
+                            "editorPublic": true,
+                            "x": 516,
+                            "y": 515,
+                            "anchor.x": 0.5,
+                            "text": "Accept",
+                            "style.fontSize": 50,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "83f8d827-89d5-41b4-a99d-44e424f4aa3b",
+                          "info": {
+                            "editorName": "txt_refuse",
+                            "editorPublic": true,
+                            "x": 199,
+                            "y": 511,
+                            "anchor.x": 0.5,
+                            "text": "Cancel",
+                            "style.fontSize": 50,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "id": "873b10b9-eba3-4f52-ae2b-6d671bb20098",
+                          "info": {
+                            "editorName": "txt_friend_Challenge",
+                            "editorPublic": true,
+                            "x": 354,
+                            "y": 380,
+                            "anchor.x": 0.5,
+                            "text": "Your friend is challenging you to a duel !",
+                            "style.fontSize": 30,
+                            "style.fill": "#ffffff",
+                            "style.align": "CENTER"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "BG_chooseMap"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "choosemap_bar"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "entry bar"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "islands_map"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "diamond"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "map_Asia"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "amerias_map"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "map_Africa"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "map_Europe"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "button 02"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "avatar bar"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "avatar frame"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "earth icon"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "profile_sample"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "close button"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "BG_not_enough_gems"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "BG_duel_wait"
+    },
+    "17": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "avatar frame"
+    },
+    "18": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "prize bar"
+    },
+    "19": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "button 01"
+    }
+  },
+  "prefab-table": {}
+}

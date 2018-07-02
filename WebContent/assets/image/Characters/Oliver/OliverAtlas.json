@@ -1,0 +1,349 @@
+{
+  "frames": {
+    "oliver_body_act": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 755,
+        "y": 2,
+        "w": 139,
+        "h": 200
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 139,
+        "h": 200
+      },
+      "sourceSize": {
+        "w": 139,
+        "h": 200
+      }
+    },
+    "oliver_hand1_act": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 896,
+        "y": 20,
+        "w": 72,
+        "h": 46
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 46
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 46
+      }
+    },
+    "oliver_hand2_act": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 845,
+        "y": 216,
+        "w": 84,
+        "h": 44
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 84,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 84,
+        "h": 44
+      }
+    },
+    "oliver_line_bow": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 919,
+        "y": 312,
+        "w": 53,
+        "h": 96
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 53,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 53,
+        "h": 96
+      }
+    },
+    "oliver_equip_anim1": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 204,
+        "w": 279,
+        "h": 358
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 279,
+        "h": 358
+      },
+      "sourceSize": {
+        "w": 279,
+        "h": 358
+      }
+    },
+    "oliver_equip_anim2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 564,
+        "y": 204,
+        "w": 279,
+        "h": 358
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 279,
+        "h": 358
+      },
+      "sourceSize": {
+        "w": 279,
+        "h": 358
+      }
+    },
+    "oliver_equip_anim4": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 564,
+        "y": 204,
+        "w": 279,
+        "h": 358
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 279,
+        "h": 358
+      },
+      "sourceSize": {
+        "w": 279,
+        "h": 358
+      }
+    },
+    "oliver_equip_anim3": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 283,
+        "y": 204,
+        "w": 279,
+        "h": 358
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 279,
+        "h": 358
+      },
+      "sourceSize": {
+        "w": 279,
+        "h": 358
+      }
+    },
+    "oliver_equip_bow1": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 308,
+        "y": 21,
+        "w": 304,
+        "h": 181
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 304,
+        "h": 181
+      },
+      "sourceSize": {
+        "w": 304,
+        "h": 181
+      }
+    },
+    "oliver_equip_bow2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 21,
+        "w": 304,
+        "h": 181
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 304,
+        "h": 181
+      },
+      "sourceSize": {
+        "w": 304,
+        "h": 181
+      }
+    },
+    "oliver_equip_hand1": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 845,
+        "y": 262,
+        "w": 72,
+        "h": 146
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 146
+      }
+    },
+    "oliver_equip_hand3": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 845,
+        "y": 262,
+        "w": 72,
+        "h": 146
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 146
+      }
+    },
+    "oliver_equip_hand2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 896,
+        "y": 68,
+        "w": 72,
+        "h": 146
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 146
+      }
+    },
+    "oliver_equip_hand4": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 896,
+        "y": 68,
+        "w": 72,
+        "h": 146
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 146
+      }
+    },
+    "oliver_body_idle": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 614,
+        "y": 2,
+        "w": 139,
+        "h": 200
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 139,
+        "h": 200
+      },
+      "sourceSize": {
+        "w": 139,
+        "h": 200
+      }
+    },
+    "oliver_bow_idle": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 896,
+        "y": 410,
+        "w": 79,
+        "h": 152
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 79,
+        "h": 152
+      },
+      "sourceSize": {
+        "w": 79,
+        "h": 152
+      }
+    },
+    "oliver_hand_idle": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 845,
+        "y": 480,
+        "w": 40,
+        "h": 82
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 82
+      },
+      "sourceSize": {
+        "w": 40,
+        "h": 82
+      }
+    }
+  },
+  "meta": {
+    "app": "Phaser Editor",
+    "version": "1",
+    "image": "OliverAtlas.png"
+  }
+}

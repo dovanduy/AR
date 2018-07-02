@@ -1,0 +1,204 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "buyNotificationPrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "93da7287-1fe0-4807-8db1-cb8c68bdebdb",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "4e22246c-fd63-486c-9ddc-8ccb2d9f8b2e",
+        "info": {
+          "editorName": "group",
+          "editorPublic": true,
+          "setAll": [],
+          "children": [{
+            "type": "group",
+            "id": "ee96db34-0146-43ef-aa5b-b8d16fade027",
+            "info": {
+              "editorName": "_grp_buy_Nofti",
+              "editorPublic": true,
+              "setAll": [],
+              "children": [
+                {
+                  "type": "atlas-sprite",
+                  "id": "b3a131de-8468-4500-ae9d-c57935e9f07b",
+                  "asset": "0",
+                  "info": {
+                    "editorName": "BG_not_enough_gems",
+                    "editorPublic": true,
+                    "x": 17,
+                    "y": 490
+                  }
+                },
+                {
+                  "type": "button",
+                  "id": "41a4e6f7-eed9-479f-87b1-7dc02067fe53",
+                  "asset": "1",
+                  "info": {
+                    "editorName": "btn_buy",
+                    "editorPublic": true,
+                    "x": 301,
+                    "y": 669,
+                    "scale.x": 0.7,
+                    "scale.y": 0.75
+                  }
+                },
+                {
+                  "type": "button",
+                  "id": "5697f9d6-472c-4eb1-9a10-a91780f7ad90",
+                  "asset": "1",
+                  "info": {
+                    "editorName": "btn_cancel_buy",
+                    "editorPublic": true,
+                    "x": 47,
+                    "y": 687,
+                    "scale.x": 0.45,
+                    "scale.y": 0.45
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "01eeb51b-e772-4e6d-b670-ab4cfd92f1d0",
+                  "info": {
+                    "editorName": "txt_buy_nofti",
+                    "editorPublic": true,
+                    "x": 147,
+                    "y": 610,
+                    "anchor.x": 0.5,
+                    "text": "Are you sure ?",
+                    "style.fontSize": 35,
+                    "style.fill": "#ffffff"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "1e053db3-f2e8-4f87-bea6-e982dac3ea96",
+                  "info": {
+                    "editorName": "txt_buy_btn",
+                    "editorPublic": true,
+                    "x": 203,
+                    "y": 694,
+                    "anchor.x": 0.5,
+                    "text": "Yes",
+                    "style.fontSize": 35,
+                    "style.fill": "#ffffff"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "3a389fef-f649-4d33-8dbc-950b461b618e",
+                  "info": {
+                    "editorName": "txt_cancel_btn",
+                    "editorPublic": true,
+                    "x": 521,
+                    "y": 694,
+                    "anchor.x": 0.5,
+                    "text": "No",
+                    "style.fontSize": 35,
+                    "style.fill": "#ffffff"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "0d4b0ade-cbac-4209-b2b4-e618c249cb79",
+                  "info": {
+                    "editorName": "txt_cost_nofti",
+                    "editorPublic": true,
+                    "x": 290,
+                    "y": 546,
+                    "anchor.x": 0.5,
+                    "text": "Cost : ",
+                    "style.fontSize": 35,
+                    "style.fill": "#ffffff"
+                  }
+                },
+                {
+                  "type": "atlas-sprite",
+                  "id": "76e762af-dcfd-4d7f-addb-36a28d4170a9",
+                  "asset": "2",
+                  "info": {
+                    "editorName": "coin",
+                    "x": 444,
+                    "y": 544,
+                    "scale.x": 0.8,
+                    "scale.y": 0.8
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "db4c36c0-fe06-49aa-87be-5a9f5ade10ef",
+                  "info": {
+                    "editorName": "txt_value_nofti",
+                    "editorPublic": true,
+                    "x": 392,
+                    "y": 546,
+                    "anchor.x": 0.5,
+                    "text": "Cost : ",
+                    "style.fontSize": 35,
+                    "style.fill": "#ffffff"
+                  }
+                }
+              ]
+            }
+          }]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "avatar bar"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "button 02"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "coin"
+    }
+  },
+  "prefab-table": {}
+}

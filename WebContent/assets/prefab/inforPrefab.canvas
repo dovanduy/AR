@@ -1,0 +1,1208 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "inforPrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "c5da74cf-d007-4af7-8d50-1761996b5dbe",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "c70e6f9e-28ea-49f8-a75e-83ddc074aaf0",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "2e5690f7-818a-47ec-9fb3-7e5b22fdb7d7",
+              "asset": "0",
+              "info": {
+                "editorName": "bg_infor",
+                "editorPublic": true,
+                "y": 66,
+                "scale.y": 1.1
+              }
+            },
+            {
+              "type": "group",
+              "id": "c25a5bea-12bf-4026-ad70-72fb4e96f391",
+              "info": {
+                "editorName": "item_bow_frame",
+                "editorPublic": true,
+                "y": 70,
+                "setAll": [],
+                "children": []
+              }
+            },
+            {
+              "type": "group",
+              "id": "8ac19758-8b97-4f95-bdad-1106d5314ed1",
+              "info": {
+                "editorName": "skin_bow_frame",
+                "editorPublic": true,
+                "y": 50,
+                "setAll": [],
+                "children": []
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "bb9e6173-538a-421d-8e3e-45be95b9ab91",
+              "asset": "1",
+              "info": {
+                "editorName": "avatar_frame",
+                "x": 39,
+                "y": 211,
+                "scale.x": 0.8,
+                "scale.y": 0.8
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "277fd3fe-798f-4e9d-8173-9238bf0ce3e3",
+              "asset": "2",
+              "info": {
+                "editorName": "item_skin",
+                "x": -15,
+                "y": 303,
+                "scale.x": 1.3,
+                "scale.y": 1.3
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "2efec017-b8a1-47d9-861f-ce5ec4b208a1",
+              "asset": "2",
+              "info": {
+                "editorName": "item_bow",
+                "x": 533,
+                "y": 313,
+                "scale.x": 1.3,
+                "scale.y": 1.3
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "1323bee3-51fa-41e5-8b73-175d5f9a3dbe",
+              "asset": "3",
+              "info": {
+                "editorName": "btn_skin_item",
+                "editorPublic": true,
+                "x": -18,
+                "y": 336,
+                "scale.x": 1.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "71b92554-b6ae-4932-9770-d48add9363a6",
+              "asset": "3",
+              "info": {
+                "editorName": "btn_bow_item",
+                "editorPublic": true,
+                "x": 532,
+                "y": 336,
+                "scale.x": 1.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "1c3512c6-68dd-4f9a-97a7-8d17e4aeab8a",
+              "asset": "4",
+              "info": {
+                "editorName": "avatar_bar",
+                "x": -5,
+                "y": 155,
+                "scale.x": 1.05,
+                "scale.y": 0.6
+              }
+            },
+            {
+              "type": "group",
+              "id": "92acd87c-59fb-4824-811e-b8f3517b25b7",
+              "info": {
+                "editorName": "player_Infor",
+                "y": 70,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "619602af-59ff-4955-b6a9-3f1ec9fe34b1",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "Level_Bar_",
+                      "x": 59,
+                      "y": 220,
+                      "scale.x": 0.8,
+                      "scale.y": 0.8
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "2e70fc66-2dc6-4568-898b-6e7537f9055e",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "Level_Bar_1",
+                      "editorPublic": true,
+                      "x": 59,
+                      "y": 220,
+                      "scale.x": 0.8,
+                      "scale.y": 0.8
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "4e02c700-553b-4b6c-9713-6e037115ccee",
+                    "asset": "7",
+                    "info": {
+                      "editorName": "BT_level",
+                      "x": 33,
+                      "y": 211,
+                      "scale.x": 0.9,
+                      "scale.y": 0.9
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "91df2a85-b1df-4236-b60a-161f98c93fa8",
+                    "info": {
+                      "editorName": "txt_bow",
+                      "editorPublic": true,
+                      "x": 63,
+                      "y": 289,
+                      "anchor.x": 0.5,
+                      "text": "BOW",
+                      "style.fontSize": 32,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "4b2f4f22-fda3-487c-845a-a259be4e86c3",
+                    "info": {
+                      "editorName": "txt_skin",
+                      "editorPublic": true,
+                      "x": 35,
+                      "y": 289,
+                      "anchor.x": 0.5,
+                      "text": "SKIN",
+                      "style.fontSize": 32,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "5af2d494-69d6-4879-9fbb-9c2f3c48623d",
+                    "asset": "8",
+                    "info": {
+                      "editorName": "profile_Picture",
+                      "editorPublic": true,
+                      "x": 101,
+                      "y": 155,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "f3f7f1b8-0e18-42b2-b50e-95f379c5bc4f",
+                    "info": {
+                      "editorName": "txt_score_high",
+                      "editorPublic": true,
+                      "x": 625,
+                      "y": 142,
+                      "text": "20",
+                      "style.fontSize": 25,
+                      "style.fill": "#fefb00"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "1c98b865-5604-4a82-8fd2-a9975847bd26",
+                    "info": {
+                      "editorName": "txt_score_current",
+                      "editorPublic": true,
+                      "x": 449,
+                      "y": 142,
+                      "text": "20",
+                      "style.fontSize": 25,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "fb508c49-2dd8-45fd-a1b9-9d106ab4b351",
+                    "info": {
+                      "editorName": "txt_headShot_high",
+                      "editorPublic": true,
+                      "x": 624,
+                      "y": 176,
+                      "text": "10",
+                      "style.fontSize": 25,
+                      "style.fill": "#fefb00"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "4ba54bc2-a4a4-4f45-bc22-9cdf8c686c82",
+                    "info": {
+                      "editorName": "txt_headShot_current",
+                      "editorPublic": true,
+                      "x": 448,
+                      "y": 176,
+                      "text": "5",
+                      "style.fontSize": 25,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "3299a3df-fd3f-428c-9d39-be695aaf74d1",
+                    "info": {
+                      "editorName": "txt_efficiency_high",
+                      "editorPublic": true,
+                      "x": 623,
+                      "y": 216,
+                      "text": "30%",
+                      "style.fontSize": 25,
+                      "style.fill": "#fefb00"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "93b1dc41-cf25-4e23-9030-12daf1d5e7d6",
+                    "info": {
+                      "editorName": "txt_efficiency_current",
+                      "editorPublic": true,
+                      "x": 446,
+                      "y": 216,
+                      "text": "15%",
+                      "style.fontSize": 25,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "dacc3bad-dee9-4754-9c2c-349b51db75b6",
+                    "info": {
+                      "editorName": "txt_efficiency",
+                      "editorPublic": true,
+                      "x": 235,
+                      "y": 218,
+                      "text": "Efficiency",
+                      "style.fontSize": 25,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "c415d234-d341-4b4e-976e-eb459f2cc262",
+                    "info": {
+                      "editorName": "txt_headShot",
+                      "editorPublic": true,
+                      "x": 235,
+                      "y": 176,
+                      "text": "Headshot",
+                      "style.fontSize": 25,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "65be0865-5ef1-408a-8c52-d6a0416071bb",
+                    "info": {
+                      "editorName": "txt_score",
+                      "editorPublic": true,
+                      "x": 235,
+                      "y": 142,
+                      "text": "Score",
+                      "style.fontSize": 25,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "66ca4c5e-64c0-413f-9ffc-2ac677a82e82",
+                    "info": {
+                      "editorName": "txt_high",
+                      "editorPublic": true,
+                      "x": 618,
+                      "y": 110,
+                      "text": "High",
+                      "style.fontSize": 25,
+                      "style.fill": "#fefb00"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "1584ab96-8f2f-4b01-9d3e-d58c9442f4a8",
+                    "info": {
+                      "editorName": "txt_current",
+                      "editorPublic": true,
+                      "x": 417,
+                      "y": 107,
+                      "text": "Current",
+                      "style.fontSize": 25,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "774d60ca-393d-4796-8257-f5b0ac2405d1",
+                    "info": {
+                      "editorName": "txt_LevelIndex",
+                      "editorPublic": true,
+                      "x": 55,
+                      "y": 218,
+                      "anchor.x": 0.5,
+                      "text": "10",
+                      "style.fontSize": 25,
+                      "style.fill": "#feffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "bb94b606-90b4-4ffc-913b-e1b950af4008",
+                    "info": {
+                      "editorName": "txt_facebookID",
+                      "editorPublic": true,
+                      "x": 1097,
+                      "y": 80,
+                      "text": "123456789",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "9d348538-57ed-425c-b576-2481f7c2879a",
+                    "info": {
+                      "editorName": "txt_userID",
+                      "x": 1005,
+                      "y": 163,
+                      "text": "User ID:",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "d5c7d651-8520-4b7d-94e4-6302515e673a",
+                    "info": {
+                      "editorName": "txt_Level",
+                      "editorPublic": true,
+                      "x": 989,
+                      "y": 82,
+                      "text": "Level",
+                      "style.fontSize": 25,
+                      "style.fill": "#fefb00"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "a70380e3-ae4f-4b87-ad5d-11cf0401f523",
+                    "info": {
+                      "editorName": "txt_nameFacebook",
+                      "editorPublic": true,
+                      "x": 972,
+                      "text": "Hai Dang",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "5ff5732d-1eb6-469b-a80b-f0fc13c278e6",
+                    "info": {
+                      "editorName": "txt_player_Infor_Title",
+                      "editorPublic": true,
+                      "x": 185,
+                      "y": 17,
+                      "anchor.x": 0.5,
+                      "text": "PLAYER INFO",
+                      "style.fontSize": 55,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "9285b6db-12ed-4453-a159-60275bd27f6d",
+                    "asset": "9",
+                    "info": {
+                      "editorName": "btn_close",
+                      "editorPublic": true,
+                      "x": 632,
+                      "y": 19
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "dba21e90-f92d-45b1-bca1-18ce7b176b50",
+              "asset": "10",
+              "info": {
+                "editorName": "item_frame",
+                "x": -953,
+                "y": 623
+              }
+            },
+            {
+              "type": "group",
+              "id": "e457ee2f-0bce-48e3-ac12-25ebc25d9dc2",
+              "info": {
+                "editorName": "_grp_Character",
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "group",
+                    "id": "043ac18f-6b2a-43a4-8370-df1c748a46d2",
+                    "info": {
+                      "editorName": "_grp_Skin",
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "atlas-sprite",
+                          "id": "73b1d654-00f7-4f5c-b236-59985cb9cf31",
+                          "asset": "11",
+                          "info": {
+                            "editorName": "skin_4",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": 353,
+                            "y": 632,
+                            "scale.x": 4,
+                            "scale.y": 4,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "4d958ff3-60ea-4e07-b6bf-89e61234dcf2",
+                          "asset": "12",
+                          "info": {
+                            "editorName": "skin_3",
+                            "editorPublic": true,
+                            "x": 219,
+                            "y": 408,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 5,
+                              "loop": true,
+                              "frames": [
+                                "Graham_equip_anim1",
+                                "Graham_equip_anim2"
+                              ]
+                            }]
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "f57d1b28-7ea0-4d89-9f8c-f30251e18a9f",
+                          "asset": "13",
+                          "info": {
+                            "editorName": "skin_2",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": 206,
+                            "y": 413,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 5,
+                              "loop": true,
+                              "frames": [
+                                "riggs_equip_anim1",
+                                "riggs_equip_anim2",
+                                "riggs_equip_anim3",
+                                "riggs_equip_anim4"
+                              ]
+                            }]
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "e707f558-4e17-467f-b693-a61eb0b26fc5",
+                          "asset": "14",
+                          "info": {
+                            "editorName": "skin_1",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": 331,
+                            "y": 667,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 5,
+                              "loop": true,
+                              "frames": [
+                                "oliver_equip_anim1",
+                                "oliver_equip_anim2",
+                                "oliver_equip_anim3",
+                                "oliver_equip_anim4"
+                              ]
+                            }]
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "08f963d0-e733-44e6-9050-a9dfdfa36c43",
+                          "asset": "15",
+                          "info": {
+                            "editorName": "skin_0",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": 244,
+                            "y": 417,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 5,
+                              "loop": true,
+                              "frames": [
+                                "astoria_idle_equip1",
+                                "astoria_idle_equip2",
+                                "astoria_idle_equip3",
+                                "astoria_idle_equip4"
+                              ]
+                            }]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "977c8709-edc5-481e-a8cc-beb3f56e3f31",
+                    "info": {
+                      "editorName": "_grp_Bow",
+                      "x": -1085,
+                      "y": 1138,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "atlas-sprite",
+                          "id": "9a2c6f8e-669c-46b3-a1c1-0b4e2490ef4f",
+                          "asset": "16",
+                          "info": {
+                            "editorName": "bow_3",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": 1385,
+                            "y": -432,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 4,
+                              "loop": true,
+                              "frames": [
+                                "bow_anim1",
+                                "bow_anim2"
+                              ]
+                            }]
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "4c4bb5a0-8292-43c1-808b-184641963621",
+                          "asset": "17",
+                          "info": {
+                            "editorName": "bow_2",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": 1391,
+                            "y": -435,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 5,
+                              "loop": true,
+                              "frames": [
+                                "Bow_anim1",
+                                "Bow_anim2"
+                              ]
+                            }]
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "7c386d89-491b-40c3-b0f4-cdfdca45bffa",
+                          "asset": "18",
+                          "info": {
+                            "editorName": "bow_1",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": 1389,
+                            "y": -435,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 5,
+                              "loop": true,
+                              "frames": [
+                                "oliver_equip_bow1",
+                                "oliver_equip_bow2"
+                              ]
+                            }]
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "6eacc16f-ddc2-4f21-b958-8b2212a59779",
+                          "asset": "19",
+                          "info": {
+                            "editorName": "bow_0",
+                            "editorPublic": true,
+                            "x": 1388,
+                            "y": -440,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 5,
+                              "loop": true,
+                              "frames": [
+                                "bow_idle_equip1",
+                                "bow_idle_equip2"
+                              ]
+                            }]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "0b7d0964-7026-417c-806a-c2b5acadf9c0",
+                    "info": {
+                      "editorName": "_grp_Hand",
+                      "x": 438,
+                      "y": 667,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "atlas-sprite",
+                          "id": "9440c05a-c371-452f-b294-bb308e325b42",
+                          "asset": "11",
+                          "info": {
+                            "editorName": "skin_",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": 353,
+                            "y": 632,
+                            "scale.x": 4,
+                            "scale.y": 4,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "555eaa59-bcab-40b8-bc9c-f6fc6b33a7a2",
+                          "asset": "20",
+                          "info": {
+                            "editorName": "hand_3",
+                            "editorPublic": true,
+                            "x": -208,
+                            "y": -80,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 4,
+                              "loop": true,
+                              "frames": [
+                                "Graham_hand_anim1",
+                                "Graham_hand_anim2"
+                              ]
+                            }]
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "8af1547a-1620-418c-b726-8f150a358a08",
+                          "asset": "21",
+                          "info": {
+                            "editorName": "hand_2",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": -215,
+                            "y": -184,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 5,
+                              "loop": true,
+                              "frames": [
+                                "riggs_hand_anim1",
+                                "riggs_hand_anim2",
+                                "riggs_hand_anim1",
+                                "riggs_hand_anim2"
+                              ]
+                            }]
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "02d65af0-777a-4072-ba91-df8c8d22593a",
+                          "asset": "22",
+                          "info": {
+                            "editorName": "hand_1",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": -136,
+                            "y": 53,
+                            "anchor.x": 0.5,
+                            "anchor.y": 0.5,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 60,
+                              "loop": true,
+                              "frames": [
+                                "oliver_equip_hand1",
+                                "oliver_equip_hand2",
+                                "oliver_equip_hand3",
+                                "oliver_equip_hand4"
+                              ]
+                            }]
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "2b99251c-ece7-4cbb-8345-adddf3174a09",
+                          "asset": "23",
+                          "info": {
+                            "editorName": "hand_0",
+                            "editorPublic": true,
+                            "editorShow": false,
+                            "x": -175,
+                            "y": -59,
+                            "animations": [{
+                              "name": "idle",
+                              "frameRate": 5,
+                              "loop": true,
+                              "frames": [
+                                "hand_idle_equip1",
+                                "hand_idle_equip2",
+                                "hand_idle_equip3",
+                                "hand_idle_equip4"
+                              ]
+                            }]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "7200d16c-e6c5-47a0-9226-9c5028ff4319",
+              "info": {
+                "editorName": "_grp_Skin_Icon",
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "158cd2b0-677a-4805-82c9-8803a42c075a",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "skin_icon_4",
+                      "editorPublic": true,
+                      "x": -1030,
+                      "y": 731,
+                      "scale.x": 0.5,
+                      "scale.y": 0.5,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "3f6a7cef-4d41-4304-bb74-779cbb6bda95",
+                    "asset": "24",
+                    "info": {
+                      "editorName": "skin_icon_3",
+                      "editorPublic": true,
+                      "x": -956,
+                      "y": 788,
+                      "scale.x": 0.5,
+                      "scale.y": 0.5,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "f17ace6c-fadf-4e5d-ace6-b23a7694ad50",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "skin_icon_2",
+                      "editorPublic": true,
+                      "x": -917,
+                      "y": 627,
+                      "scale.x": 0.5,
+                      "scale.y": 0.5,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "ec3423dc-7469-4eae-b381-e78e31bc5dfa",
+                    "asset": "26",
+                    "info": {
+                      "editorName": "skin_icon_1",
+                      "editorPublic": true,
+                      "x": -1034,
+                      "y": 644,
+                      "scale.x": 0.5,
+                      "scale.y": 0.5,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "59d34b15-9d65-4a77-9569-23aa264e1258",
+                    "asset": "27",
+                    "info": {
+                      "editorName": "skin_icon_0",
+                      "editorPublic": true,
+                      "x": -1109,
+                      "y": 647,
+                      "scale.x": 0.8,
+                      "scale.y": 0.8,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "041d0fda-75ca-409e-8ca0-195e7ff9d96c",
+              "info": {
+                "editorName": "_grp_Bow_Icon",
+                "x": 79,
+                "y": 817,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "329d1681-9222-4d18-ac65-333fabf10235",
+                    "asset": "28",
+                    "info": {
+                      "editorName": "bow_icon_3",
+                      "editorPublic": true,
+                      "x": -1127,
+                      "y": 223,
+                      "rotation": 0.7853981633974483,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "e1f3a0e8-766c-4251-a681-4a266570a904",
+                    "asset": "29",
+                    "info": {
+                      "editorName": "bow_icon_2",
+                      "editorPublic": true,
+                      "x": -1549,
+                      "y": 132,
+                      "rotation": 0.7853981633974483,
+                      "scale.x": 0.15,
+                      "scale.y": 0.15,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "16d84f88-14e5-458a-a6b9-595eb780d4ac",
+                    "asset": "30",
+                    "info": {
+                      "editorName": "bow_icon_1",
+                      "editorPublic": true,
+                      "x": 1431,
+                      "y": -430,
+                      "rotation": 0.7853981633974483,
+                      "scale.x": 0.15,
+                      "scale.y": 0.15,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "c6af0d8a-eb66-40eb-9b8f-b68a5930ba6d",
+              "info": {
+                "editorName": "_grp_Skin_Item",
+                "editorPublic": true,
+                "setAll": [],
+                "children": []
+              }
+            },
+            {
+              "type": "text",
+              "id": "c5c3e142-1abc-4a8e-a718-53b172eaa96a",
+              "info": {
+                "editorName": "txt_buy_Success",
+                "editorPublic": true,
+                "x": 178,
+                "y": 854,
+                "anchor.x": 0.5,
+                "text": "Buy Success",
+                "style.fontSize": 37,
+                "style.fill": "#fefb00"
+              }
+            },
+            {
+              "type": "image",
+              "id": "277eab8c-d6c3-4b00-a563-b3b9172eebf0",
+              "asset": "31",
+              "info": {
+                "editorName": "menu_BG",
+                "y": 1009,
+                "scale.y": 0.5
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "bg_infor"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "avatar frame"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "shop_menu"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "button"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "avatar bar"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "Level_Bar_1"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "Level_Bar_2"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "BT_level"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "profile_sample"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "close button"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "item_frame"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "skin_04"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "Graham",
+      "sprite": "Graham_equip_anim1"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "RiggAtlas",
+      "sprite": "riggs_equip_anim1"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "OliverAtlas",
+      "sprite": "oliver_equip_anim1"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "AstoriaAtlas",
+      "sprite": "astoria_idle_equip1"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "Graham",
+      "sprite": "bow_anim1"
+    },
+    "17": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "RiggAtlas",
+      "sprite": "Bow_anim1"
+    },
+    "18": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "OliverAtlas",
+      "sprite": "oliver_equip_bow1"
+    },
+    "19": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "AstoriaAtlas",
+      "sprite": "bow_idle_equip1"
+    },
+    "20": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "Graham",
+      "sprite": "Graham_hand_anim1"
+    },
+    "21": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "RiggAtlas",
+      "sprite": "riggs_hand_anim1"
+    },
+    "22": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "OliverAtlas",
+      "sprite": "oliver_equip_hand1"
+    },
+    "23": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "AstoriaAtlas",
+      "sprite": "hand_idle_equip1"
+    },
+    "24": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "skin_03"
+    },
+    "25": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "skin_02"
+    },
+    "26": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "skin_01"
+    },
+    "27": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "player_idle"
+    },
+    "28": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "bow_03"
+    },
+    "29": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "bow_01"
+    },
+    "30": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "bow_02"
+    },
+    "31": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "menu BG"
+    }
+  },
+  "prefab-table": {}
+}

@@ -1,0 +1,349 @@
+{
+  "frames": {
+    "riggs_act_bow1a": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 822,
+        "y": 765,
+        "w": 115,
+        "h": 139
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 115,
+        "h": 139
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 139
+      }
+    },
+    "riggs_act_hand1": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 477,
+        "y": 21,
+        "w": 88,
+        "h": 65
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 88,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 88,
+        "h": 65
+      }
+    },
+    "riggs_act_hand2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 347,
+        "y": 11,
+        "w": 128,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 75
+      }
+    },
+    "riggs_act_hand2b": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 692,
+        "y": 526,
+        "w": 128,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 75
+      }
+    },
+    "riggs_body_act": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 783,
+        "y": 95,
+        "w": 136,
+        "h": 213
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 136,
+        "h": 213
+      },
+      "sourceSize": {
+        "w": 136,
+        "h": 213
+      }
+    },
+    "riggs_daycung_2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 653,
+        "y": 49,
+        "w": 72,
+        "h": 100
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 100
+      }
+    },
+    "Bow_anim1": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 347,
+        "y": 271,
+        "w": 304,
+        "h": 181
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 304,
+        "h": 181
+      },
+      "sourceSize": {
+        "w": 304,
+        "h": 181
+      }
+    },
+    "Bow_anim2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 347,
+        "y": 88,
+        "w": 304,
+        "h": 181
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 304,
+        "h": 181
+      },
+      "sourceSize": {
+        "w": 304,
+        "h": 181
+      }
+    },
+    "riggs_equip_anim1": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 454,
+        "w": 343,
+        "h": 450
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 450
+      },
+      "sourceSize": {
+        "w": 343,
+        "h": 450
+      }
+    },
+    "riggs_equip_anim2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 343,
+        "h": 450
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 450
+      },
+      "sourceSize": {
+        "w": 343,
+        "h": 450
+      }
+    },
+    "riggs_equip_anim4": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 343,
+        "h": 450
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 450
+      },
+      "sourceSize": {
+        "w": 343,
+        "h": 450
+      }
+    },
+    "riggs_equip_anim3": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 347,
+        "y": 454,
+        "w": 343,
+        "h": 450
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 343,
+        "h": 450
+      },
+      "sourceSize": {
+        "w": 343,
+        "h": 450
+      }
+    },
+    "riggs_hand_anim1": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 692,
+        "y": 603,
+        "w": 128,
+        "h": 301
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 301
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 301
+      }
+    },
+    "riggs_hand_anim2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 653,
+        "y": 151,
+        "w": 128,
+        "h": 301
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 301
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 301
+      }
+    },
+    "riggs_body_idle": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 783,
+        "y": 310,
+        "w": 161,
+        "h": 214
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 161,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 161,
+        "h": 214
+      }
+    },
+    "riggs_bow_idle": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 822,
+        "y": 624,
+        "w": 63,
+        "h": 139
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 63,
+        "h": 139
+      },
+      "sourceSize": {
+        "w": 63,
+        "h": 139
+      }
+    },
+    "riggs_hand_idle": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 887,
+        "y": 621,
+        "w": 59,
+        "h": 142
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 59,
+        "h": 142
+      },
+      "sourceSize": {
+        "w": 59,
+        "h": 142
+      }
+    }
+  },
+  "meta": {
+    "app": "Phaser Editor",
+    "version": "1",
+    "image": "RiggAtlas.png"
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "selectStagePrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "f793a7a2-f4c0-450e-8347-a01b3215b153",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "76cd6923-1d7c-42cd-b11f-8f8435e4012d",
+        "info": {
+          "editorName": "group",
+          "editorPublic": true,
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "46bfd932-462e-4efb-9c6a-05f7fabe1b67",
+              "asset": "0",
+              "info": {
+                "editorName": "popup_Target",
+                "editorPublic": true,
+                "y": 110
+              }
+            },
+            {
+              "type": "text",
+              "id": "bfcec024-c574-40bd-b632-c2d33fbe5334",
+              "info": {
+                "editorName": "txt_stage_title",
+                "editorPublic": true,
+                "x": 329,
+                "y": 143,
+                "anchor.x": 0.5,
+                "text": "STAGE",
+                "style.fontSize": 50,
+                "style.fill": "#feffff"
+              }
+            },
+            {
+              "type": "text",
+              "id": "54fea6b0-df76-41aa-90ab-48206a9ae679",
+              "info": {
+                "editorName": "txt_stage_index",
+                "editorPublic": true,
+                "x": 456,
+                "y": 143,
+                "anchor.x": 0.5,
+                "text": "01",
+                "style.fontSize": 50,
+                "style.fill": "#feffff"
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "3d99a89d-dbcd-4a33-852b-6d199bcb75ba",
+              "asset": "1",
+              "info": {
+                "editorName": "star_off",
+                "x": 172,
+                "y": 384,
+                "rotation": -0.7853981633974483,
+                "scale.x": 1.5,
+                "scale.y": 1.5,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "cd7741cf-5441-43bd-b96f-7d0855729244",
+              "asset": "1",
+              "info": {
+                "editorName": "star_off1",
+                "x": 363,
+                "y": 319,
+                "scale.x": 1.5,
+                "scale.y": 1.5,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "41a6a190-8d1d-43aa-8fd3-67a70a9847a4",
+              "asset": "1",
+              "info": {
+                "editorName": "star_off2",
+                "x": 552,
+                "y": 386,
+                "rotation": 0.7853981633974483,
+                "scale.x": 1.5,
+                "scale.y": 1.5,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "94e4afff-7905-41c7-8c2c-7ec284619ef6",
+              "asset": "2",
+              "info": {
+                "editorName": "star_0",
+                "editorPublic": true,
+                "x": 172,
+                "y": 384,
+                "rotation": -0.7853981633974483,
+                "scale.x": 1.5,
+                "scale.y": 1.5,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "0c2070cd-9364-4f11-9e19-6b5dc2058c9c",
+              "asset": "2",
+              "info": {
+                "editorName": "star_1",
+                "editorPublic": true,
+                "x": 363,
+                "y": 319,
+                "scale.x": 1.5,
+                "scale.y": 1.5,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "69ca108f-42c5-4e68-ae0f-eb5a03461f6e",
+              "asset": "2",
+              "info": {
+                "editorName": "star_2",
+                "editorPublic": true,
+                "x": 552,
+                "y": 386,
+                "rotation": 0.7853981633974483,
+                "scale.x": 1.5,
+                "scale.y": 1.5,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "button",
+              "id": "421139d0-a43a-4ddd-b7d5-40a682a21c7e",
+              "asset": "3",
+              "info": {
+                "editorName": "btn_playSingle",
+                "editorPublic": true,
+                "x": 185,
+                "y": 948
+              }
+            },
+            {
+              "type": "image",
+              "id": "9ff6c415-ed4b-41d6-b40e-b8d3984707f0",
+              "asset": "4",
+              "info": {
+                "editorName": "popup_Target_",
+                "x": 18,
+                "y": 580
+              }
+            },
+            {
+              "type": "text",
+              "id": "f3676af4-f44a-4df8-a95c-1baa3b441b06",
+              "info": {
+                "editorName": "txt_target_title",
+                "editorPublic": true,
+                "x": 359,
+                "y": 485,
+                "anchor.x": 0.5,
+                "text": "TARGET",
+                "style.fontSize": 50,
+                "style.fill": "#0096ff"
+              }
+            },
+            {
+              "type": "text",
+              "id": "08d5ec9d-d93b-424e-948a-9a49343ef5a5",
+              "info": {
+                "editorName": "txt_play_title",
+                "editorPublic": true,
+                "x": 361,
+                "y": 983,
+                "anchor.x": 0.5,
+                "text": "PLAY",
+                "style.fontSize": 50,
+                "style.fill": "#feffff"
+              }
+            },
+            {
+              "type": "text",
+              "id": "ce008d31-2ec3-4411-b4e0-89258ed13ee6",
+              "info": {
+                "editorName": "txt_target",
+                "editorPublic": true,
+                "x": 366,
+                "y": 711,
+                "anchor.x": 0.5,
+                "text": "Kill 10 enemy",
+                "style.fontSize": 50,
+                "style.fill": "#feffff"
+              }
+            },
+            {
+              "type": "button",
+              "id": "69339ee5-f253-4893-95cb-5e1178eadfa0",
+              "asset": "5",
+              "info": {
+                "editorName": "btn_close_popUp",
+                "editorPublic": true,
+                "x": 646,
+                "y": 122
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "popup_Target"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "star_off"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "star"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "bt_playduel"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "popup_Target_2"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "close button"
+    }
+  },
+  "prefab-table": {}
+}

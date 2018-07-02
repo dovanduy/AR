@@ -1,0 +1,389 @@
+{
+  "frames": {
+    "Act_body": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 680,
+        "y": 28,
+        "w": 98,
+        "h": 218
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 98,
+        "h": 218
+      },
+      "sourceSize": {
+        "w": 98,
+        "h": 218
+      }
+    },
+    "Act_hand1": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 780,
+        "y": 16,
+        "w": 66,
+        "h": 31
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 66,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 66,
+        "h": 31
+      }
+    },
+    "Act_hand2": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 302,
+        "y": 2,
+        "w": 85,
+        "h": 28
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 85,
+        "h": 28
+      },
+      "sourceSize": {
+        "w": 85,
+        "h": 28
+      }
+    },
+    "Act_head1": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 780,
+        "y": 49,
+        "w": 69,
+        "h": 83
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 69,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 69,
+        "h": 83
+      }
+    },
+    "Act_head2": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 363,
+        "y": 62,
+        "w": 79,
+        "h": 83
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 79,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 79,
+        "h": 83
+      }
+    },
+    "daycung2": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 302,
+        "y": 32,
+        "w": 59,
+        "h": 113
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 59,
+        "h": 113
+      },
+      "sourceSize": {
+        "w": 59,
+        "h": 113
+      }
+    },
+    "astoria_idle_equip1": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 147,
+        "w": 224,
+        "h": 439
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 224,
+        "h": 439
+      },
+      "sourceSize": {
+        "w": 224,
+        "h": 440
+      }
+    },
+    "astoria_idle_equip2": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 454,
+        "y": 28,
+        "w": 224,
+        "h": 438
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 224,
+        "h": 438
+      },
+      "sourceSize": {
+        "w": 224,
+        "h": 440
+      }
+    },
+    "astoria_idle_equip4": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 454,
+        "y": 28,
+        "w": 224,
+        "h": 438
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 1,
+        "w": 224,
+        "h": 438
+      },
+      "sourceSize": {
+        "w": 224,
+        "h": 440
+      }
+    },
+    "astoria_idle_equip3": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 228,
+        "y": 147,
+        "w": 224,
+        "h": 439
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 224,
+        "h": 439
+      },
+      "sourceSize": {
+        "w": 224,
+        "h": 440
+      }
+    },
+    "bow_idle_equip1": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 24,
+        "w": 298,
+        "h": 121
+      },
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 42,
+        "w": 298,
+        "h": 121
+      },
+      "sourceSize": {
+        "w": 304,
+        "h": 181
+      }
+    },
+    "bow_idle_equip2": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 454,
+        "y": 468,
+        "w": 299,
+        "h": 118
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 46,
+        "w": 299,
+        "h": 118
+      },
+      "sourceSize": {
+        "w": 304,
+        "h": 181
+      }
+    },
+    "hand_idle_equip1": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 755,
+        "y": 474,
+        "w": 95,
+        "h": 112
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 95,
+        "h": 112
+      },
+      "sourceSize": {
+        "w": 95,
+        "h": 112
+      }
+    },
+    "hand_idle_equip3": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 755,
+        "y": 474,
+        "w": 95,
+        "h": 112
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 95,
+        "h": 112
+      },
+      "sourceSize": {
+        "w": 95,
+        "h": 112
+      }
+    },
+    "hand_idle_equip2": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 780,
+        "y": 134,
+        "w": 91,
+        "h": 112
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 91,
+        "h": 112
+      },
+      "sourceSize": {
+        "w": 95,
+        "h": 112
+      }
+    },
+    "hand_idle_equip4": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 780,
+        "y": 134,
+        "w": 91,
+        "h": 112
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 91,
+        "h": 112
+      },
+      "sourceSize": {
+        "w": 95,
+        "h": 112
+      }
+    },
+    "Idle_ing_1": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 680,
+        "y": 248,
+        "w": 115,
+        "h": 218
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 115,
+        "h": 218
+      },
+      "sourceSize": {
+        "w": 115,
+        "h": 218
+      }
+    },
+    "Idle_ing_2": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 389,
+        "y": 4,
+        "w": 44,
+        "h": 56
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 44,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 44,
+        "h": 56
+      }
+    },
+    "Idle_ing_bow": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 797,
+        "y": 320,
+        "w": 43,
+        "h": 152
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 43,
+        "h": 152
+      },
+      "sourceSize": {
+        "w": 43,
+        "h": 152
+      }
+    }
+  },
+  "meta": {
+    "app": "Phaser Editor",
+    "version": "1",
+    "image": "AstoriaAtlas.png"
+  }
+}

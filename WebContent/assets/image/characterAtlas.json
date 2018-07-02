@@ -1,0 +1,329 @@
+{
+  "frames": {
+    "Arrow_01": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 256,
+        "w": 428,
+        "h": 34
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 428,
+        "h": 34
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 34
+      }
+    },
+    "Arrow_02": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 220,
+        "w": 391,
+        "h": 34
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 391,
+        "h": 34
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 34
+      }
+    },
+    "Body_Collider": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 82,
+        "y": 53,
+        "w": 10,
+        "h": 56
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 10,
+        "h": 56
+      },
+      "sourceSize": {
+        "w": 10,
+        "h": 56
+      }
+    },
+    "Head_Collider": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 335,
+        "y": 169,
+        "w": 51,
+        "h": 49
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 49
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 49
+      }
+    },
+    "Wall": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 432,
+        "y": 2,
+        "w": 100,
+        "h": 288
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 288
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 288
+      }
+    },
+    "Wall_1": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 395,
+        "y": 235,
+        "w": 22,
+        "h": 19
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 19
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 19
+      }
+    },
+    "enemy_bow": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 283,
+        "y": 143,
+        "w": 50,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 50,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 50,
+        "h": 75
+      }
+    },
+    "enemy_idle": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 78,
+        "h": 107
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 107
+      },
+      "sourceSize": {
+        "w": 91,
+        "h": 108
+      }
+    },
+    "enemy_left_shoot": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 230,
+        "y": 117,
+        "w": 21,
+        "h": 8
+      },
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 0,
+        "w": 21,
+        "h": 8
+      },
+      "sourceSize": {
+        "w": 23,
+        "h": 8
+      }
+    },
+    "enemy_right_shoot": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 335,
+        "y": 153,
+        "w": 36,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 0,
+        "w": 36,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 39,
+        "h": 14
+      }
+    },
+    "enemy_shoot": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 111,
+        "w": 85,
+        "h": 107
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 85,
+        "h": 107
+      },
+      "sourceSize": {
+        "w": 86,
+        "h": 108
+      }
+    },
+    "player_bow": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 230,
+        "y": 143,
+        "w": 51,
+        "h": 75
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 75
+      }
+    },
+    "player_idle": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 89,
+        "y": 114,
+        "w": 75,
+        "h": 104
+      },
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 15,
+        "w": 75,
+        "h": 104
+      },
+      "sourceSize": {
+        "w": 85,
+        "h": 120
+      }
+    },
+    "player_left_shoot": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 230,
+        "y": 127,
+        "w": 40,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 40,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 40,
+        "h": 14
+      }
+    },
+    "player_rigt_shoot": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 272,
+        "y": 127,
+        "w": 22,
+        "h": 14
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 14
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 14
+      }
+    },
+    "player_shoot": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 166,
+        "y": 113,
+        "w": 62,
+        "h": 105
+      },
+      "spriteSourceSize": {
+        "x": 18,
+        "y": 14,
+        "w": 62,
+        "h": 105
+      },
+      "sourceSize": {
+        "w": 85,
+        "h": 120
+      }
+    }
+  },
+  "meta": {
+    "app": "Phaser Editor",
+    "version": "1",
+    "image": "characterAtlas.png"
+  }
+}

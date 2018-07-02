@@ -1,0 +1,169 @@
+{
+  "frames": {
+    "Cloud01": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 564,
+        "y": 82,
+        "w": 326,
+        "h": 220
+      },
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 4,
+        "w": 326,
+        "h": 220
+      },
+      "sourceSize": {
+        "w": 335,
+        "h": 228
+      }
+    },
+    "Cloud02": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 484,
+        "y": 304,
+        "w": 360,
+        "h": 212
+      },
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 4,
+        "w": 360,
+        "h": 212
+      },
+      "sourceSize": {
+        "w": 369,
+        "h": 220
+      }
+    },
+    "Cloud03": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 328,
+        "w": 480,
+        "h": 202
+      },
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 4,
+        "w": 480,
+        "h": 202
+      },
+      "sourceSize": {
+        "w": 489,
+        "h": 210
+      }
+    },
+    "entry bar": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 118,
+        "w": 446,
+        "h": 208
+      },
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 7,
+        "w": 446,
+        "h": 208
+      },
+      "sourceSize": {
+        "w": 464,
+        "h": 226
+      }
+    },
+    "avatar bar": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 532,
+        "w": 682,
+        "h": 308
+      },
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 9,
+        "w": 682,
+        "h": 308
+      },
+      "sourceSize": {
+        "w": 692,
+        "h": 319
+      }
+    },
+    "avatar frame": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 686,
+        "y": 518,
+        "w": 160,
+        "h": 160
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 160,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 160
+      }
+    },
+    "button": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 560,
+        "h": 114
+      },
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 5,
+        "w": 560,
+        "h": 114
+      },
+      "sourceSize": {
+        "w": 575,
+        "h": 120
+      }
+    },
+    "earth icon": {
+      "trimmed": true,
+      "rotated": false,
+      "frame": {
+        "x": 686,
+        "y": 680,
+        "w": 160,
+        "h": 160
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 160,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 160
+      }
+    }
+  },
+  "meta": {
+    "app": "Phaser Editor",
+    "version": "1",
+    "image": "EnvironmentAtlas.png"
+  }
+}

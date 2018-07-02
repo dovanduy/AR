@@ -1,0 +1,337 @@
+{
+  "section": [
+    {
+      "type": "image",
+      "key": "gameoverbg-sheet0",
+      "url": "assets/image/bg_gameOver.png",
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "HUDAtlas",
+      "textureURL": "assets/image/HUDAtlas.png",
+      "atlasURL": "assets/image/HUDAtlas.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "characterAtlas",
+      "textureURL": "assets/image/characterAtlas.png",
+      "atlasURL": "assets/image/characterAtlas.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "audio",
+      "key": "BGM",
+      "urls": ["assets/audio/BGM.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "audio",
+      "key": "sfx_hit",
+      "urls": ["assets/audio/sfx_hit.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "script",
+      "key": "preLoad",
+      "url": "assets/canvas/preLoad.js"
+    },
+    {
+      "type": "script",
+      "key": "Level",
+      "url": "assets/canvas/Level.js"
+    },
+    {
+      "type": "audio",
+      "key": "sfx_arrow_fly",
+      "urls": ["assets/audio/sfx_arrow_fly.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "atlas",
+      "key": "EnvironmentAtlas",
+      "textureURL": "assets/image/EnvironmentAtlas.png",
+      "atlasURL": "assets/image/EnvironmentAtlas.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "audio",
+      "key": "sfx_arrow_fly_enemy",
+      "urls": ["assets/audio/sfx_arrow_fly_enemy.mp3"],
+      "autoDecode": true
+    },
+    {
+      "type": "image",
+      "key": "profile_sample",
+      "url": "assets/image/profile_sample.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "worldMap",
+      "url": "assets/image/Enviroment/WorldMap.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "World_Map_Line",
+      "url": "assets/image/UI/worldMap/AR_worldmap_line.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "setting BG",
+      "url": "assets/image/UI/setting/setting background.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "menu BG",
+      "url": "assets/image/UI/menu background.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BG_01",
+      "url": "assets/image/Enviroment/background.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BG_chooseMap",
+      "url": "assets/image/UI/chooseMap/background.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "map_Africa",
+      "url": "assets/image/UI/chooseMap/map africa.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "map_Asia",
+      "url": "assets/image/UI/chooseMap/map asia.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "map_Europe",
+      "url": "assets/image/UI/chooseMap/map europe.png",
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "HUD2Atlas",
+      "textureURL": "assets/image/HUD2Atlas.png",
+      "atlasURL": "assets/image/HUD2Atlas.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "image",
+      "key": "BG_duel_wait",
+      "url": "assets/image/UI/Duel/background_duel_wait.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "time_single",
+      "url": "assets/image/UI/duelTime/Time battlel single.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BG_Empty",
+      "url": "assets/image/UI/BG_Empty.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BG_not_enough_gems",
+      "url": "assets/image/UI/not enough gems/BG_enough_gems.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "shop_IAP",
+      "url": "assets/image/UI/IAP/Shop_IAP.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg_IAP",
+      "url": "assets/image/UI/IAP/bg_IAP.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg_Asia",
+      "url": "assets/image/Enviroment/background_asia.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg_Africa",
+      "url": "assets/image/Enviroment/background_Africa.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg_Europe",
+      "url": "assets/image/Enviroment/background_Europe.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg_Island",
+      "url": "assets/image/Enviroment/backGround_island.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg_America",
+      "url": "assets/image/Enviroment/background_Amerias.jpg",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg_infor",
+      "url": "assets/image/UI/infor/bg_infor.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bg_Item_Shop",
+      "url": "assets/image/UI/itemShop/bg_Item_Shop.png",
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "ItemShop1Atlas",
+      "textureURL": "assets/image/UI/itemShop/ItemShop1Atlas.png",
+      "atlasURL": "assets/image/UI/itemShop/ItemShop1Atlas.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "EmotionAtlas",
+      "textureURL": "assets/image/UI/Emotion/EmotionAtlas.png",
+      "atlasURL": "assets/image/UI/Emotion/EmotionAtlas.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "image",
+      "key": "Spark_01",
+      "url": "assets/image/Particles/spark1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "BG_Cloud",
+      "url": "assets/image/UI/worldMap/BG_Cloud.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Idle_01",
+      "url": "assets/image/UI/itemShop/Skin/idle_equip.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Bow",
+      "url": "assets/image/UI/itemShop/Bow/bow.png",
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "AstoriaAtlas",
+      "textureURL": "assets/image/Characters/Astoria/AstoriaAtlas.png",
+      "atlasURL": "assets/image/Characters/Astoria/AstoriaAtlas.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "image",
+      "key": "Bow_Astoria",
+      "url": "assets/image/Characters/Astoria/Attack/bow2b.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Astoria_hand2Fingers",
+      "url": "assets/image/Characters/Astoria/Attack/Act_hand2fingers.png",
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "OliverAtlas",
+      "textureURL": "assets/image/Characters/Oliver/OliverAtlas.png",
+      "atlasURL": "assets/image/Characters/Oliver/OliverAtlas.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "image",
+      "key": "Bow_Oliver",
+      "url": "assets/image/Characters/Oliver/Attack/oliver_bow1b_act.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Oliver_hand2Fingers",
+      "url": "assets/image/Characters/Oliver/Attack/oliver_hand2fingers_act.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "line_effect_button",
+      "url": "assets/image/UI/worldMap/line_effect_button.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "popup_Target",
+      "url": "assets/image/UI/worldMap/SelectStage/popup_Target.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "popup_Target_2",
+      "url": "assets/image/UI/worldMap/SelectStage/popup_Target_2.png",
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "RiggAtlas",
+      "textureURL": "assets/image/Characters/Rigg/RiggAtlas.png",
+      "atlasURL": "assets/image/Characters/Rigg/RiggAtlas.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "Graham",
+      "textureURL": "assets/image/Characters/Graham/Graham.png",
+      "atlasURL": "assets/image/Characters/Graham/Graham.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "image",
+      "key": "Graham",
+      "url": "assets/image/Characters/Graham/Equip/Graham_equip_anim2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "Point",
+      "url": "assets/image/input_Point.png",
+      "overwrite": false
+    }
+  ],
+  "meta": {
+    "generated": "1530160335917",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

@@ -1,0 +1,1311 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "mainMenuPrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "stepWidth": 160,
+    "stepHeight": 50,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "e2145a94-482e-4c07-95d4-593933855d64",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "78dde8dd-a9e3-4a05-ad12-2c9e16d27513",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "group",
+              "id": "813a17c1-39da-4598-864e-1a08d61bd939",
+              "info": {
+                "editorName": "grp_Control",
+                "editorPublic": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "f32542b6-cfb7-4ed4-b5b8-bcc3fd4d1196",
+                    "asset": "0",
+                    "info": {
+                      "editorName": "btn_infor",
+                      "editorPublic": true,
+                      "x": 530,
+                      "y": 980
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "aa7d1c0c-1d91-422e-bfd9-44b472a5001c",
+                    "asset": "1",
+                    "info": {
+                      "editorName": "btn_leaderBoard",
+                      "editorPublic": true,
+                      "x": 7,
+                      "y": 980
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "5cba943e-5dc4-41ba-9fb7-d6e32a6d1798",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "btn_worldMap",
+                      "editorPublic": true,
+                      "x": 20,
+                      "y": 289
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "a0f5082c-bab8-4408-ae26-111ae7cbff93",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "btn_home",
+                      "editorPublic": true,
+                      "x": 362,
+                      "y": 289
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "1e7419b6-6a14-4e80-8619-de6bc2342d5e",
+                    "info": {
+                      "editorName": "txt_playSingle",
+                      "editorPublic": true,
+                      "x": 349,
+                      "y": 1704,
+                      "anchor.x": 0.5,
+                      "text": "PLAY SINGLE",
+                      "style.fontSize": 40,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "4654369f-0035-4ef7-a235-6e51c3d124a4",
+                    "info": {
+                      "editorName": "txt_playWF",
+                      "editorPublic": true,
+                      "x": 524,
+                      "y": 357,
+                      "anchor.x": 0.5,
+                      "text": "FRIEND",
+                      "style.fontSize": 40,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "5ea37bfa-aa78-4046-a12e-16f321919827",
+                    "info": {
+                      "editorName": "txt_playDuel",
+                      "editorPublic": true,
+                      "x": 183,
+                      "y": 357,
+                      "anchor.x": 0.5,
+                      "text": "DUEL",
+                      "style.fontSize": 40,
+                      "style.fill": "#fefb00"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "025ebff4-0a96-44bd-aac7-859de392d14e",
+              "info": {
+                "editorName": "home",
+                "editorPublic": true,
+                "x": -2,
+                "y": -177,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "03986bbc-1f2b-4acf-8074-10ba7e6b370c",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "btn_duel_chooseMap",
+                      "editorPublic": true,
+                      "editorShow": false,
+                      "x": 56,
+                      "y": 770
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "56fbaee8-4057-4719-bf19-c185852a0ed7",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "btn_playSingle",
+                      "editorPublic": true,
+                      "editorShow": false,
+                      "x": 65,
+                      "y": 760
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "3f179c90-107c-4e0b-921a-f3e22b6f254c",
+                    "asset": "3",
+                    "info": {
+                      "editorName": "btn_play_with_friend",
+                      "editorPublic": true,
+                      "editorShow": false,
+                      "x": 65,
+                      "y": 910
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "bc90cf7c-8ccb-4bf8-b0f8-bd50879ebe69",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "BG_Empty1",
+                      "x": 12,
+                      "y": 248,
+                      "scale.x": 0.965,
+                      "scale.y": 0.2
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "2bd68a26-da98-40aa-bf87-b4f7e870ce9b",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "avatar_frame",
+                      "editorPublic": true,
+                      "x": 84,
+                      "y": 263
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "012c5e2d-7c44-407b-805a-7d3de5f32aac",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "avatar_Other_Player",
+                      "editorPublic": true,
+                      "x": 465,
+                      "y": 263
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "89f00144-521f-43ce-b0cc-cdda83a74a71",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "icon_other_Player",
+                      "editorPublic": true,
+                      "x": 545,
+                      "y": 343,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "6b730e01-7a85-4434-aab9-2ed05982d2e7",
+                    "asset": "7",
+                    "info": {
+                      "editorName": "profile_Picture",
+                      "editorPublic": true,
+                      "x": 163,
+                      "y": 343,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "71231aa7-4a7f-4abc-b6b4-05f5611d09ff",
+                    "asset": "8",
+                    "info": {
+                      "editorName": "Level_Bar_",
+                      "x": 118,
+                      "y": 418,
+                      "scale.x": 0.8,
+                      "scale.y": 0.8
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "5af94513-aaa3-47af-8f9a-f5c2c3f6192d",
+                    "asset": "9",
+                    "info": {
+                      "editorName": "Level_Bar_1",
+                      "editorPublic": true,
+                      "x": 118,
+                      "y": 419,
+                      "scale.x": 0.8,
+                      "scale.y": 0.8
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "926d57fc-41e3-4b7e-820a-4945a1862de1",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "BT_level",
+                      "x": 99,
+                      "y": 411,
+                      "scale.x": 0.8,
+                      "scale.y": 0.8
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "54fa05dc-be70-4b60-9c9a-6adfb707f05d",
+                    "info": {
+                      "editorName": "txt_other_player_name",
+                      "editorPublic": true,
+                      "x": 552,
+                      "y": 485,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "Random Player",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "c108b2b6-64d2-4ffd-8667-b038e2943382",
+                    "info": {
+                      "editorName": "txt_player_name",
+                      "editorPublic": true,
+                      "x": 94,
+                      "y": 485,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "Random Player",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "2a5bbeb0-5050-4ba1-8321-9f04f9ab75b9",
+                    "info": {
+                      "editorName": "txt_playDuel_1",
+                      "editorPublic": true,
+                      "x": 178,
+                      "y": 483,
+                      "anchor.x": 0.5,
+                      "text": "PLAY",
+                      "style.fontSize": 40,
+                      "style.fill": "#fefb00"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "20b43ba4-e8f9-47cc-819c-451fcb4fee72",
+                    "info": {
+                      "editorName": "txt_playWF_1",
+                      "editorPublic": true,
+                      "x": 518,
+                      "y": 483,
+                      "anchor.x": 0.5,
+                      "text": "FRIEND",
+                      "style.fontSize": 40,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "43008f95-acd6-466e-ba52-c33753d7ef29",
+                    "info": {
+                      "editorName": "txt_VS",
+                      "x": 353,
+                      "y": 347,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "VS",
+                      "style.fontSize": 80,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "c78aa81a-aaff-4811-b8d7-632a989edc2c",
+                    "info": {
+                      "editorName": "txt_level_index",
+                      "editorPublic": true,
+                      "x": 119,
+                      "y": 433,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "0",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "8e3b837d-10a6-4c14-b8d9-8e007f6a6ff8",
+              "info": {
+                "editorName": "Setting",
+                "editorPublic": true,
+                "x": 860,
+                "y": -63,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "ad7243ce-fb66-4a02-85b2-441087d22c3c",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "setting_BG",
+                      "x": -19,
+                      "y": 53,
+                      "scale.x": 1.05
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "e675769c-2742-4a8d-b745-5ea99fcd5fbe",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "btn_music",
+                      "editorPublic": true,
+                      "x": 87,
+                      "y": 279
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "e1e6addb-07b6-4662-a557-1eb8b802b47b",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "btn_sound",
+                      "editorPublic": true,
+                      "x": 87,
+                      "y": 432
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "cd219e83-3313-4d28-b482-7bb434154763",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "btn_terms",
+                      "editorPublic": true,
+                      "x": 87,
+                      "y": 747
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "08f769fe-7e6f-488c-863e-e934c7365126",
+                    "asset": "14",
+                    "info": {
+                      "editorName": "setting_bar",
+                      "editorPublic": true,
+                      "x": -15,
+                      "y": 68,
+                      "scale.x": 1.05
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "1213da7f-684c-4f93-9975-2b0b0322fcf2",
+                    "asset": "15",
+                    "info": {
+                      "editorName": "btn_close_Setting",
+                      "editorPublic": true,
+                      "x": 643,
+                      "y": 99
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "dd6443c0-864d-4d5a-a12d-6c1115c3f0f9",
+                    "info": {
+                      "editorName": "txt_terms",
+                      "editorPublic": true,
+                      "x": 113,
+                      "y": 767,
+                      "anchor.x": 0.5,
+                      "text": "Terms of Use & Privacy Policy",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "2ca94de8-2415-4eaf-acb6-fcb219d4efdc",
+                    "info": {
+                      "editorName": "txt_SOUND",
+                      "editorPublic": true,
+                      "x": 220,
+                      "y": 463,
+                      "anchor.x": 0.5,
+                      "text": "Sound On/Off",
+                      "style.fontSize": 60,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "efb8d2e8-9f9d-4e1f-b9d5-897b9c5991f2",
+                    "asset": "16",
+                    "info": {
+                      "editorName": "sfx_on",
+                      "editorPublic": true,
+                      "x": 104,
+                      "y": 460,
+                      "animations": [
+                        {
+                          "name": "on",
+                          "frameRate": 60,
+                          "frames": ["sfx on"]
+                        },
+                        {
+                          "name": "off",
+                          "frameRate": 60,
+                          "frames": ["sfx off"]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "d579aba4-be04-4151-a0fa-d79c02ef072b",
+                    "asset": "17",
+                    "info": {
+                      "editorName": "sound_on",
+                      "editorPublic": true,
+                      "x": 100,
+                      "y": 307,
+                      "animations": [
+                        {
+                          "name": "on",
+                          "frameRate": 60,
+                          "frames": ["sound on"]
+                        },
+                        {
+                          "name": "off",
+                          "frameRate": 60,
+                          "frames": ["sound off"]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "adecc87d-cb6d-4e29-95e7-edde34e71266",
+                    "info": {
+                      "editorName": "txt_MUSIC",
+                      "editorPublic": true,
+                      "x": 216,
+                      "y": 308,
+                      "anchor.x": 0.5,
+                      "text": "Music On/Off",
+                      "style.fontSize": 60,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "6bc3af02-bbc8-43d1-87ff-fd145ebc84e3",
+                    "info": {
+                      "editorName": "txt_support",
+                      "x": 138,
+                      "y": 875,
+                      "text": "archersupport@skyvu.com",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "63c98ea6-4821-4aa4-8c99-decfd1f77d9e",
+                    "info": {
+                      "editorName": "txt_useID",
+                      "x": 140,
+                      "y": 929,
+                      "text": "User ID:",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "aadb768a-596a-4b0d-9743-f7fe6eace02f",
+                    "info": {
+                      "editorName": "txt_ID",
+                      "editorPublic": true,
+                      "x": 272,
+                      "y": 929,
+                      "text": "123456789",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "2592635a-b24b-44ec-a2dd-4ee99631b5ea",
+                    "info": {
+                      "editorName": "txt_Setting_title",
+                      "editorPublic": true,
+                      "x": 221,
+                      "y": 106,
+                      "anchor.x": 0.5,
+                      "text": "SETTINGS",
+                      "style.fontSize": 60,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "4f460d46-aa2b-42a1-a2c6-cb7f9a95efb9",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "btn_Language",
+                      "editorPublic": true,
+                      "x": 89,
+                      "y": 583
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "20397884-bc96-42fb-a9bd-7ddf52055778",
+                    "info": {
+                      "editorName": "txt_language",
+                      "editorPublic": true,
+                      "x": 219,
+                      "y": 610,
+                      "anchor.x": 0.5,
+                      "text": "Language",
+                      "style.fontSize": 60,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "81520e48-2602-4485-8ea8-23ede278f2c5",
+              "info": {
+                "editorName": "Top_bar",
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "671187db-2e38-47cf-8e18-fefa5bf3cd76",
+                    "asset": "18",
+                    "info": {
+                      "editorName": "top_bar",
+                      "y": -4
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "57a3a3a4-5b24-40da-87fc-27f6c9d70a88",
+                    "asset": "19",
+                    "info": {
+                      "editorName": "item_coin_bar",
+                      "editorPublic": true,
+                      "x": 500,
+                      "y": 5
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "b08326c5-33ea-4b62-ab28-abd977447409",
+                    "asset": "19",
+                    "info": {
+                      "editorName": "item_gem_bar",
+                      "editorPublic": true,
+                      "x": 272,
+                      "y": 4
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "707ea7c7-9965-4993-a0a8-5a3f4cfe4b83",
+                    "asset": "20",
+                    "info": {
+                      "editorName": "coin",
+                      "x": 472,
+                      "y": 6
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "2f4ee0bb-efd7-4e60-873c-33e205255281",
+                    "asset": "21",
+                    "info": {
+                      "editorName": "gem",
+                      "x": 239,
+                      "y": -7
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "c2462ba7-bfed-4c63-954f-980bd6df111d",
+                    "asset": "22",
+                    "info": {
+                      "editorName": "btn_coin_lus",
+                      "editorPublic": true,
+                      "x": 602,
+                      "y": 5
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "5cfeed2d-7cb8-472d-9dcd-a5b4654f6373",
+                    "asset": "22",
+                    "info": {
+                      "editorName": "btn_gem_plus",
+                      "editorPublic": true,
+                      "x": 376,
+                      "y": 5
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "04732354-8951-4f44-a569-99b5dc8e13ef",
+                    "asset": "23",
+                    "info": {
+                      "editorName": "btn_setting",
+                      "editorPublic": true,
+                      "x": 31,
+                      "y": 3
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "276effbe-8d80-45c2-91d3-11a6044ab08a",
+                    "info": {
+                      "editorName": "txt_gem",
+                      "editorPublic": true,
+                      "x": 329,
+                      "y": 31,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "0",
+                      "style.fontSize": 25,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "49bd175e-b8e4-47eb-9f34-0944b70581bf",
+                    "info": {
+                      "editorName": "txt_coin",
+                      "editorPublic": true,
+                      "x": 561,
+                      "y": 32,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "0",
+                      "style.fontSize": 25,
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "aecbcca7-af30-4293-b88d-31e9dcb6ee6b",
+              "info": {
+                "editorName": "grp_Language",
+                "editorPublic": true,
+                "x": 1703,
+                "y": -64,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "190ba400-561d-44f8-945a-06a6e8369671",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "BG_Empty",
+                      "x": 4,
+                      "y": 53
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "44e17efd-c67b-4b9e-8eea-d128bd18007a",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "btn_english",
+                      "editorPublic": true,
+                      "x": 171,
+                      "y": 240,
+                      "scale.x": 0.7
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "361ffeac-db55-4d62-9560-1636b07994bb",
+                    "info": {
+                      "editorName": "txt_english",
+                      "editorPublic": true,
+                      "x": 299,
+                      "y": 260,
+                      "anchor.x": 0.5,
+                      "text": "English",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "7dcc7f6b-1489-4b1e-9f9f-badf2d582425",
+                    "asset": "14",
+                    "info": {
+                      "editorName": "language_bar",
+                      "editorPublic": true,
+                      "x": 5,
+                      "y": 68
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "1b14a6d8-148e-42d1-bb11-fa20d318abd5",
+                    "asset": "15",
+                    "info": {
+                      "editorName": "btn_close_Language",
+                      "editorPublic": true,
+                      "x": 633,
+                      "y": 99
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "4cf471f8-a9cc-4c91-8273-51e0d784aac3",
+                    "info": {
+                      "editorName": "txt_language_Title",
+                      "editorPublic": true,
+                      "x": 191,
+                      "y": 106,
+                      "anchor.x": 0.5,
+                      "text": "LANGUAGE",
+                      "style.fontSize": 60,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "9c1c6275-4b68-42b3-a6db-d77553e92a1e",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "btn_spanish",
+                      "editorPublic": true,
+                      "x": 173,
+                      "y": 340,
+                      "scale.x": 0.7
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "62ed8e20-ac98-4d0c-bbc7-1b479a949cee",
+                    "info": {
+                      "editorName": "txt_spanish",
+                      "editorPublic": true,
+                      "x": 301,
+                      "y": 360,
+                      "anchor.x": 0.5,
+                      "text": "English",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "7e98d9c9-dd8e-4e92-92e4-be50429366fe",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "btn_VI",
+                      "editorPublic": true,
+                      "x": 172,
+                      "y": 440,
+                      "scale.x": 0.7
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "9b7420ef-cca0-4873-a39d-3c7a991c0f32",
+                    "info": {
+                      "editorName": "txt_vi",
+                      "editorPublic": true,
+                      "x": 300,
+                      "y": 460,
+                      "anchor.x": 0.5,
+                      "text": "Vietnamese",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "3a8d6a27-b223-4629-b9b3-a5694393a806",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "btn_portuguese",
+                      "editorPublic": true,
+                      "x": 176,
+                      "y": 540,
+                      "scale.x": 0.7
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "80240b26-9145-4371-a29a-8bcc61830a28",
+                    "info": {
+                      "editorName": "txt_portuguese",
+                      "editorPublic": true,
+                      "x": 304,
+                      "y": 560,
+                      "anchor.x": 0.5,
+                      "text": "portuguese",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "05413838-25b3-43e1-a950-5d99a5ec1cb6",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "btn_thaiLand",
+                      "editorPublic": true,
+                      "x": 176,
+                      "y": 640,
+                      "scale.x": 0.7
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "c15b1bd1-d778-4579-848b-c2feaae2a3ed",
+                    "info": {
+                      "editorName": "txt_thaiLand",
+                      "editorPublic": true,
+                      "x": 394,
+                      "y": 660,
+                      "anchor.x": 0.5,
+                      "text": "portuguese",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "baa40510-371e-4c1b-bdc3-4216c0e8587a",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "btn_french",
+                      "editorPublic": true,
+                      "x": 176,
+                      "y": 740,
+                      "scale.x": 0.7
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "3e6ba9af-3d88-46d5-b3c4-c8aef1f8fc50",
+                    "info": {
+                      "editorName": "txt_french",
+                      "editorPublic": true,
+                      "x": 406,
+                      "y": 760,
+                      "anchor.x": 0.5,
+                      "text": "portuguese",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "298c88af-bebd-4e2e-b883-2be7187f2446",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "btn_polish",
+                      "editorPublic": true,
+                      "x": 176,
+                      "y": 840,
+                      "scale.x": 0.7
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "3e1abc86-0330-4304-aff1-a593d4b8fb19",
+                    "info": {
+                      "editorName": "txt_polish",
+                      "editorPublic": true,
+                      "x": 389,
+                      "y": 860,
+                      "anchor.x": 0.5,
+                      "text": "portuguese",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "a75502d5-d304-479c-9649-7b87657b8236",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "btn_taiwan",
+                      "editorPublic": true,
+                      "x": 176,
+                      "y": 940,
+                      "scale.x": 0.7
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "eb6f94a6-8bdb-420a-892c-270957eced63",
+                    "info": {
+                      "editorName": "txt_taiwan",
+                      "editorPublic": true,
+                      "x": 365,
+                      "y": 960,
+                      "anchor.x": 0.5,
+                      "text": "portuguese",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "a8f58ad4-d028-404c-b53b-e7af62ce5c5d",
+              "info": {
+                "editorName": "_grp_nofti_add_gem",
+                "editorPublic": true,
+                "x": -1052,
+                "y": -529,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "2f7a912a-212d-4038-98a2-4e5b79c177fd",
+                    "asset": "24",
+                    "info": {
+                      "editorName": "bg_nofti_add_gem",
+                      "editorPublic": true,
+                      "x": 10,
+                      "y": 386
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "75049f36-4e6c-467a-92c2-ed458a6da565",
+                    "asset": "15",
+                    "info": {
+                      "editorName": "btn_close_nofti_add_gem",
+                      "editorPublic": true,
+                      "x": 653,
+                      "y": 365
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "6d872e82-b580-44e8-a725-b3ba941ff9e4",
+                    "info": {
+                      "editorName": "txt_nofti_desktop_device",
+                      "editorPublic": true,
+                      "x": 116,
+                      "y": 434,
+                      "anchor.x": 0.5,
+                      "text": "Play Single to get more gems",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "3c1702d0-8ab5-46c0-bec2-e866675941b9",
+                    "info": {
+                      "editorName": "txt_nofti_mobile_device",
+                      "editorPublic": true,
+                      "x": 159,
+                      "y": 417,
+                      "anchor.x": 0.5,
+                      "text": "Play Single and Watch Video\r\nto get more gems",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "3b7db9aa-8826-45da-a9f0-e2bc0f1983d9",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "btn_watch_Video",
+                      "editorPublic": true,
+                      "x": 57,
+                      "y": 512,
+                      "scale.x": 0.5,
+                      "scale.y": 0.7
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "97a6c245-6491-42fe-8710-cb38e2d9f297",
+                    "info": {
+                      "editorName": "txt_watch_Video",
+                      "editorPublic": true,
+                      "x": 191,
+                      "y": 538,
+                      "anchor.x": 0.5,
+                      "text": "Watch Video",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "97c92770-3354-4bf4-8d5c-d656e5323e9c",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "btn_play_Single",
+                      "editorPublic": true,
+                      "x": 393,
+                      "y": 511,
+                      "scale.x": 0.5,
+                      "scale.y": 0.7
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "b5694ca4-6c1b-46d3-bf21-58bf29b5c763",
+                    "info": {
+                      "editorName": "txt_play_Single",
+                      "editorPublic": true,
+                      "x": 533,
+                      "y": 556,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "Play Single\n",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "64ae3ba6-d58a-46fc-946b-a94c2a4b6971",
+                    "info": {
+                      "editorName": "txt_nofti_show_reward_video_failed",
+                      "editorPublic": true,
+                      "x": 360,
+                      "y": 622,
+                      "anchor.x": 0.5,
+                      "text": "Can\u2019t load Video",
+                      "style.fontSize": 30,
+                      "style.fill": "#ff2600",
+                      "style.stroke": "#ff2600"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "bt_shop"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "bt_leaderboard"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "bt_playduel"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "button"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "BG_Empty"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "avatar frame"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "earth icon"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "profile_sample"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "Level_Bar_1"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "Level_Bar_2"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "BT_level"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "setting BG"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "button 02"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "button 01"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "setting bar"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "close button"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "sfx on"
+    },
+    "17": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "sound on"
+    },
+    "18": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "top bar"
+    },
+    "19": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "iterm bar"
+    },
+    "20": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "coin"
+    },
+    "21": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "diamond"
+    },
+    "22": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "plus button"
+    },
+    "23": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "setting button"
+    },
+    "24": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "avatar bar"
+    }
+  },
+  "prefab-table": {}
+}

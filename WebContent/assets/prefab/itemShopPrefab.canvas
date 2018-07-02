@@ -1,0 +1,1028 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "itemShopPrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "f9d9b9d0-f3ef-46b6-a65b-adaee75f6292",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "6c715b55-a227-4a2d-8d67-f09e371aef21",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "group",
+              "id": "fe6ed23f-900e-470a-a8bd-24bdaed098f4",
+              "info": {
+                "editorName": "_grp_item_Shop",
+                "editorPublic": true,
+                "y": 210,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "image",
+                    "id": "d8378adb-1b64-4432-90a2-22f409ba5c56",
+                    "asset": "0",
+                    "info": {
+                      "editorName": "bg_Item_Shop",
+                      "y": -49
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "09d6aeaa-699e-4b1f-ae48-7d2962393592",
+                    "asset": "1",
+                    "info": {
+                      "editorName": "btn_skin",
+                      "editorPublic": true,
+                      "x": -1,
+                      "y": 34,
+                      "animations": [
+                        {
+                          "name": "down",
+                          "frameRate": 60,
+                          "frames": ["btn_item_shop_on"]
+                        },
+                        {
+                          "name": "up",
+                          "frameRate": 60,
+                          "frames": ["btn_item_shop_off"]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "0db34108-5a69-4d6e-9f14-b1cb783593a0",
+                    "asset": "1",
+                    "info": {
+                      "editorName": "btn_bow",
+                      "editorPublic": true,
+                      "x": 350,
+                      "y": 34,
+                      "animations": [
+                        {
+                          "name": "down",
+                          "frameRate": 60,
+                          "frames": ["btn_item_shop_on"]
+                        },
+                        {
+                          "name": "up",
+                          "frameRate": 60,
+                          "frames": ["btn_item_shop_off"]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "113094ec-cdb3-40fa-9131-3932b97fb9eb",
+                    "info": {
+                      "editorName": "txt_skin",
+                      "editorPublic": true,
+                      "x": 169,
+                      "y": 55,
+                      "anchor.x": 0.5,
+                      "text": "SKIN",
+                      "style.fontSize": 50,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "ffc7fee8-cd1c-4f58-a8d9-e429d87f91c6",
+                    "info": {
+                      "editorName": "txt_bow",
+                      "editorPublic": true,
+                      "x": 536,
+                      "y": 55,
+                      "anchor.x": 0.5,
+                      "text": "BOW",
+                      "style.fontSize": 50,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "27cc9cf0-52cf-43f4-a456-5232835d9913",
+                    "info": {
+                      "editorName": "_grp_Skin_Item",
+                      "editorPublic": true,
+                      "x": 845,
+                      "y": -316,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "group",
+                          "id": "d6160aaf-8ea6-4372-90f6-2863e6e613dc",
+                          "info": {
+                            "editorName": "Skin_6",
+                            "editorPublic": true,
+                            "x": 457,
+                            "y": 169,
+                            "setAll": [],
+                            "children": [{
+                              "type": "atlas-sprite",
+                              "id": "db20b760-1228-4302-bf2d-174be9c80ae3",
+                              "asset": "2",
+                              "info": {
+                                "editorName": "shop_frame7",
+                                "x": 13,
+                                "y": 231
+                              }
+                            }]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "d78e8151-bc43-432e-9181-a47d6c7a5b99",
+                          "info": {
+                            "editorName": "Skin_5",
+                            "editorPublic": true,
+                            "x": 228,
+                            "y": 170,
+                            "setAll": [],
+                            "children": [{
+                              "type": "atlas-sprite",
+                              "id": "88e22637-1a41-4b7d-8560-1ac674ee8190",
+                              "asset": "2",
+                              "info": {
+                                "editorName": "shop_frame6",
+                                "x": 13,
+                                "y": 231
+                              }
+                            }]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "86a84afe-1736-4c1f-a056-45e5aa20c0b3",
+                          "info": {
+                            "editorName": "Skin_4",
+                            "editorPublic": true,
+                            "x": -5,
+                            "y": 170,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "atlas-sprite",
+                                "id": "d21e83ca-b0ea-4dcc-a50d-b441a9146299",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "shop_frame3",
+                                  "x": 13,
+                                  "y": 231
+                                }
+                              },
+                              {
+                                "type": "group",
+                                "id": "1e51cdad-a919-4996-b952-7db887b5325b",
+                                "info": {
+                                  "editorName": "_grp_button_skin_4",
+                                  "editorPublic": true,
+                                  "setAll": [],
+                                  "children": [
+                                    {
+                                      "type": "button",
+                                      "id": "2eb9bade-d7a9-4748-927f-cfb9ec4a7841",
+                                      "asset": "3",
+                                      "info": {
+                                        "editorName": "btn_skin_4",
+                                        "editorPublic": true,
+                                        "x": 26,
+                                        "y": 371
+                                      }
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "d19358e0-f6bb-4b31-a54b-c0042a5a4a44",
+                                      "info": {
+                                        "editorName": "txt_skin_4",
+                                        "editorPublic": true,
+                                        "x": 91,
+                                        "y": 396,
+                                        "text": "20K",
+                                        "style.fontSize": 30,
+                                        "style.fill": "#ffffff"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "8e066e8d-5b63-40d7-9061-f0b7c51df5c4",
+                                "asset": "4",
+                                "info": {
+                                  "editorName": "skin_4",
+                                  "x": 77,
+                                  "y": 269
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "9454e766-3f05-4d1d-b636-9d508dcd8f68",
+                          "info": {
+                            "editorName": "Skin_3",
+                            "editorPublic": true,
+                            "x": 457,
+                            "y": -71,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "atlas-sprite",
+                                "id": "99eacb67-2a8b-42ca-a7e6-f76005b6e461",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "shop_frame2",
+                                  "x": 13,
+                                  "y": 231
+                                }
+                              },
+                              {
+                                "type": "group",
+                                "id": "67f058f8-a9c2-49b5-8c97-8462befe93b3",
+                                "info": {
+                                  "editorName": "_grp_button_skin_3",
+                                  "editorPublic": true,
+                                  "editorShow": false,
+                                  "setAll": [],
+                                  "children": [
+                                    {
+                                      "type": "button",
+                                      "id": "6f9620f5-cb30-40c1-a416-8ba19d0ee60c",
+                                      "asset": "3",
+                                      "info": {
+                                        "editorName": "btn_skin_3",
+                                        "editorPublic": true,
+                                        "x": 26,
+                                        "y": 371
+                                      }
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "997322bc-3b63-402f-9639-14b4a1730d58",
+                                      "info": {
+                                        "editorName": "txt_skin_3",
+                                        "editorPublic": true,
+                                        "x": 91,
+                                        "y": 397,
+                                        "text": "15K",
+                                        "style.fontSize": 30,
+                                        "style.fill": "#ffffff"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "5aff991d-d0a7-4daa-9e37-d30472e245ff",
+                                "asset": "5",
+                                "info": {
+                                  "editorName": "skin_3",
+                                  "x": 79,
+                                  "y": 259
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "955315b1-9659-4e49-a43b-e6e4be45886b",
+                          "info": {
+                            "editorName": "Skin_2",
+                            "editorPublic": true,
+                            "x": 226,
+                            "y": -71,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "atlas-sprite",
+                                "id": "edff30c8-1b07-464a-af98-efb5194abbd6",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "shop_frame1",
+                                  "x": 13,
+                                  "y": 231
+                                }
+                              },
+                              {
+                                "type": "group",
+                                "id": "e5e202db-8e3f-4c92-bee1-ede111277dee",
+                                "info": {
+                                  "editorName": "_grp_button_skin_2",
+                                  "editorPublic": true,
+                                  "editorShow": false,
+                                  "setAll": [],
+                                  "children": [
+                                    {
+                                      "type": "button",
+                                      "id": "e41bd49c-c3fc-426f-a858-42992326d2be",
+                                      "asset": "3",
+                                      "info": {
+                                        "editorName": "btn_skin_2",
+                                        "editorPublic": true,
+                                        "x": 26,
+                                        "y": 371
+                                      }
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "29f0b505-dbf6-44cb-b7f4-1371de844723",
+                                      "info": {
+                                        "editorName": "txt_skin_2",
+                                        "editorPublic": true,
+                                        "x": 91,
+                                        "y": 397,
+                                        "text": "10K",
+                                        "style.fontSize": 30,
+                                        "style.fill": "#ffffff"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "409bbc65-8ce3-4743-b7cb-83d7224e3cd0",
+                                "asset": "6",
+                                "info": {
+                                  "editorName": "skin_2",
+                                  "x": 83,
+                                  "y": 245
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "6874dbdb-a805-4d44-82ce-87792f816a15",
+                          "info": {
+                            "editorName": "Skin_1",
+                            "editorPublic": true,
+                            "x": -4,
+                            "y": -71,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "atlas-sprite",
+                                "id": "da92f3be-ef80-4e39-89d2-914d9db5c359",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "shop_frame",
+                                  "x": 13,
+                                  "y": 231
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "4ab0b2e7-e455-4d9c-9a59-c0a3d0d90564",
+                                "asset": "7",
+                                "info": {
+                                  "editorName": "skin_1",
+                                  "x": 84,
+                                  "y": 255
+                                }
+                              },
+                              {
+                                "type": "group",
+                                "id": "40169fa6-902b-4e88-be0b-1061313ded0b",
+                                "info": {
+                                  "editorName": "_grp_button_skin_1",
+                                  "editorPublic": true,
+                                  "setAll": [],
+                                  "children": [
+                                    {
+                                      "type": "button",
+                                      "id": "c86e1acd-d300-4e02-b94b-3b09bb04993b",
+                                      "asset": "3",
+                                      "info": {
+                                        "editorName": "btn_skin_1",
+                                        "editorPublic": true,
+                                        "x": 26,
+                                        "y": 371
+                                      }
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "49f11683-d332-4447-9e34-2c84871073e4",
+                                      "info": {
+                                        "editorName": "txt_skin_1",
+                                        "editorPublic": true,
+                                        "x": 106,
+                                        "y": 396,
+                                        "text": "5K",
+                                        "style.fontSize": 30,
+                                        "style.fill": "#ffffff"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "3a3bbde5-94f1-42b2-90c4-fe6d1d7ba827",
+                    "asset": "8",
+                    "info": {
+                      "editorName": "btn_close_item_shop",
+                      "editorPublic": true,
+                      "x": 637,
+                      "y": -25,
+                      "scale.x": 0.8,
+                      "scale.y": 0.8
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "18082173-58bc-4eb5-be52-98cc43376de8",
+                    "info": {
+                      "editorName": "_grp_Bow_Item",
+                      "editorPublic": true,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "group",
+                          "id": "e5bf1c73-33e6-47fa-9f19-725c645b380a",
+                          "info": {
+                            "editorName": "Bow_3",
+                            "x": 457,
+                            "y": -71,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "atlas-sprite",
+                                "id": "7aa7200b-82ca-4457-adbb-0e0246860c26",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "shop_frame5",
+                                  "x": 13,
+                                  "y": 231
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "19e980f3-6386-408e-a97d-38392c9a092c",
+                                "asset": "9",
+                                "info": {
+                                  "editorName": "bow_3",
+                                  "x": 74,
+                                  "y": 296,
+                                  "rotation": -0.5235987755982988,
+                                  "scale.x": 1.5,
+                                  "scale.y": 1.5
+                                }
+                              },
+                              {
+                                "type": "group",
+                                "id": "43dc0703-7948-43b2-b186-13ddfd9feb65",
+                                "info": {
+                                  "editorName": "_grp_button_bow_3",
+                                  "editorPublic": true,
+                                  "setAll": [],
+                                  "children": [
+                                    {
+                                      "type": "button",
+                                      "id": "cdff538b-fdf2-47df-9b23-23a99130e9ec",
+                                      "asset": "3",
+                                      "info": {
+                                        "editorName": "btn_bow_3",
+                                        "editorPublic": true,
+                                        "x": 26,
+                                        "y": 371
+                                      }
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "9164002b-f3cb-4ec5-80de-402f204769ce",
+                                      "info": {
+                                        "editorName": "txt_bow_3",
+                                        "editorPublic": true,
+                                        "x": 91,
+                                        "y": 397,
+                                        "text": "20K",
+                                        "style.fontSize": 30,
+                                        "style.fill": "#ffffff"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "1c8bb348-b1e8-47b1-a4f4-2a81f48badfb",
+                          "info": {
+                            "editorName": "Bow_2",
+                            "x": 226,
+                            "y": -69,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "atlas-sprite",
+                                "id": "e3038e5a-1551-4157-9990-4cb569f10d4e",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "shop_frame4",
+                                  "x": 13,
+                                  "y": 231
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "1ca7eaf9-e113-4af2-9682-fd5c9bc99c64",
+                                "asset": "10",
+                                "info": {
+                                  "editorName": "bow_2",
+                                  "x": 121,
+                                  "y": 333,
+                                  "rotation": -0.5235987755982988,
+                                  "scale.x": 0.3,
+                                  "scale.y": 0.3,
+                                  "anchor.x": 0.5,
+                                  "anchor.y": 0.5
+                                }
+                              },
+                              {
+                                "type": "group",
+                                "id": "4fe4b34b-4956-4d35-a6b9-1ecfa91bdc5f",
+                                "info": {
+                                  "editorName": "_grp_button_bow_2",
+                                  "editorPublic": true,
+                                  "setAll": [],
+                                  "children": [
+                                    {
+                                      "type": "button",
+                                      "id": "be8f11d9-6c6e-49a4-9737-e22ae46e3b88",
+                                      "asset": "3",
+                                      "info": {
+                                        "editorName": "btn_bow_2",
+                                        "editorPublic": true,
+                                        "x": 26,
+                                        "y": 371
+                                      }
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "0ecf6ff1-2c0a-432c-812d-c4c5e6382682",
+                                      "info": {
+                                        "editorName": "txt_bow_2",
+                                        "editorPublic": true,
+                                        "x": 91,
+                                        "y": 397,
+                                        "text": "13K",
+                                        "style.fontSize": 30,
+                                        "style.fill": "#ffffff"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "52330d5f-b28c-4ae4-9892-12c66693947c",
+                          "info": {
+                            "editorName": "Bow_1",
+                            "x": -4,
+                            "y": -71,
+                            "setAll": [],
+                            "children": [
+                              {
+                                "type": "atlas-sprite",
+                                "id": "cb992af3-804c-494a-b9cd-358cb1fe3202",
+                                "asset": "2",
+                                "info": {
+                                  "editorName": "shop_frame4",
+                                  "x": 13,
+                                  "y": 231
+                                }
+                              },
+                              {
+                                "type": "group",
+                                "id": "87bbec98-e162-40fa-881b-3e5d835da002",
+                                "info": {
+                                  "editorName": "_grp_button_bow_1",
+                                  "editorPublic": true,
+                                  "setAll": [],
+                                  "children": [
+                                    {
+                                      "type": "button",
+                                      "id": "379e18d2-ea69-48de-b949-2fe4a5337e3c",
+                                      "asset": "3",
+                                      "info": {
+                                        "editorName": "btn_bow_1",
+                                        "editorPublic": true,
+                                        "x": 26,
+                                        "y": 371
+                                      }
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "692b072e-50ca-4e00-8863-b39a6bb598d0",
+                                      "info": {
+                                        "editorName": "txt_bow_1",
+                                        "editorPublic": true,
+                                        "x": 106,
+                                        "y": 396,
+                                        "text": "7K",
+                                        "style.fontSize": 30,
+                                        "style.fill": "#ffffff"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "atlas-sprite",
+                                "id": "175fc1a5-f6a8-41a3-836a-adba235efd29",
+                                "asset": "11",
+                                "info": {
+                                  "editorName": "bow_1",
+                                  "x": 129,
+                                  "y": 328,
+                                  "rotation": -0.5235987755982988,
+                                  "scale.x": 0.3,
+                                  "scale.y": 0.3,
+                                  "anchor.x": 0.5,
+                                  "anchor.y": 0.5
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "0ce5b71e-1790-466d-9ac6-1577040e8885",
+                          "info": {
+                            "editorName": "Skin_12",
+                            "editorPublic": true,
+                            "x": 458,
+                            "y": 164,
+                            "setAll": [],
+                            "children": [{
+                              "type": "atlas-sprite",
+                              "id": "bf80a86f-69db-4770-b56f-a664e9f261cd",
+                              "asset": "2",
+                              "info": {
+                                "editorName": "shop_frame11",
+                                "x": 13,
+                                "y": 231
+                              }
+                            }]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "896586b4-8511-4339-a8d9-1e9ee7ecf8b3",
+                          "info": {
+                            "editorName": "Skin_11",
+                            "editorPublic": true,
+                            "x": 229,
+                            "y": 165,
+                            "setAll": [],
+                            "children": [{
+                              "type": "atlas-sprite",
+                              "id": "0385c866-9c45-4844-af47-fa095a9ba6cc",
+                              "asset": "2",
+                              "info": {
+                                "editorName": "shop_frame12",
+                                "x": 13,
+                                "y": 231
+                              }
+                            }]
+                          }
+                        },
+                        {
+                          "type": "group",
+                          "id": "83443e9a-336b-44c7-ac75-1ac9d06d2595",
+                          "info": {
+                            "editorName": "Skin_10",
+                            "editorPublic": true,
+                            "x": -3,
+                            "y": 166,
+                            "setAll": [],
+                            "children": [{
+                              "type": "atlas-sprite",
+                              "id": "8740589e-a5e0-49da-9d83-86461d2620c2",
+                              "asset": "2",
+                              "info": {
+                                "editorName": "shop_frame13",
+                                "x": 13,
+                                "y": 231
+                              }
+                            }]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "40ae415d-c3e1-447b-b8ff-a235a2c5ddb5",
+              "info": {
+                "editorName": "_grp_buy_nofti",
+                "editorPublic": true,
+                "x": 1846,
+                "y": 259,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "39e0e7eb-c7b3-4706-ba10-dd03e3d28650",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "BG_not_enough_gems",
+                      "editorPublic": true,
+                      "x": 20,
+                      "y": 443
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "2abe1f02-10e9-4ed3-b787-c1d53d34169e",
+                    "info": {
+                      "editorName": "txt_buy_nofti",
+                      "editorPublic": true,
+                      "x": 150,
+                      "y": 563,
+                      "anchor.x": 0.5,
+                      "text": "Are you sure ?",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "23bb5087-b308-44c3-978f-ec4fa54c40d1",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "btn_buy",
+                      "editorPublic": true,
+                      "x": 304,
+                      "y": 622,
+                      "scale.x": 0.7,
+                      "scale.y": 0.75
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "id": "7dd016ea-2117-429d-8b20-0c82091e6e0c",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "btn_cancel_buy",
+                      "editorPublic": true,
+                      "x": 50,
+                      "y": 640,
+                      "scale.x": 0.45,
+                      "scale.y": 0.45
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "a3e56bea-7e33-42c1-96e4-eb6566651a3d",
+                    "info": {
+                      "editorName": "txt_buy_btn",
+                      "editorPublic": true,
+                      "x": 206,
+                      "y": 647,
+                      "anchor.x": 0.5,
+                      "text": "Yes",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "35f67c76-0f39-42cd-8b26-9ad57686a52e",
+                    "info": {
+                      "editorName": "txt_cancel_btn",
+                      "editorPublic": true,
+                      "x": 524,
+                      "y": 647,
+                      "anchor.x": 0.5,
+                      "text": "No",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "b9e307fc-31be-4c4f-9d73-598252a21604",
+                    "info": {
+                      "editorName": "txt_cost_nofti",
+                      "editorPublic": true,
+                      "x": 293,
+                      "y": 499,
+                      "anchor.x": 0.5,
+                      "text": "Cost : ",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "2ac11f4d-2336-4655-a66f-f1f2d585a71e",
+                    "asset": "14",
+                    "info": {
+                      "editorName": "coin",
+                      "x": 447,
+                      "y": 497,
+                      "scale.x": 0.8,
+                      "scale.y": 0.8
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "7141504f-f1c5-4e08-90aa-c4a465f3d8d8",
+                    "info": {
+                      "editorName": "txt_value_nofti",
+                      "editorPublic": true,
+                      "x": 395,
+                      "y": 499,
+                      "anchor.x": 0.5,
+                      "text": "Cost : ",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "6dc8e127-9cc7-4f2f-b401-b52ad8664a98",
+              "info": {
+                "editorName": "_grp_buy_success_nofti",
+                "editorPublic": true,
+                "x": -1405,
+                "y": 663,
+                "setAll": [],
+                "children": [{
+                  "type": "text",
+                  "id": "bb3279e7-94b0-48d2-8bfe-ae08651c5d40",
+                  "info": {
+                    "editorName": "txt_buy_success_nofti",
+                    "editorPublic": true,
+                    "x": 376,
+                    "y": 590,
+                    "anchor.x": 0.5,
+                    "text": "Buy Success",
+                    "style.fontSize": 60,
+                    "style.fill": "#fefb00"
+                  }
+                }]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "bg_Item_Shop"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "btn_item_shop_off"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "shop_frame"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "BT_buy"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "skin_04"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "skin_03"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "skin_02"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "skin_01"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "close button"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "bow_03"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "bow_02"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "bow_01"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "avatar bar"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "button 02"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "coin"
+    }
+  },
+  "prefab-table": {}
+}

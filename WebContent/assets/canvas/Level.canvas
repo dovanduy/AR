@@ -1,0 +1,1115 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Level",
+    "sceneWidth": 800,
+    "sceneHeight": 600,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "stepWidth": 850,
+    "stepHeight": 478,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.State",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();\r\n",
+    "state_init_after": "\nthis.Init();\n\n"
+  },
+  "stateSettings": {
+    "scaleMode": "SHOW_ALL",
+    "pageAlignHorizontally": true,
+    "pageAlignVertically": true,
+    "stageBackgroundColor": [
+      255,
+      255,
+      255
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8a0fc0bc-e3be-4656-9585-f855ac8ba0bb",
+    "info": {
+      "editorName": "Level",
+      "setAll": [],
+      "children": [
+        {
+          "type": "group",
+          "id": "1e90826a-1386-40f9-ab95-70bb31e4be3f",
+          "info": {
+            "editorName": "_MainMenuScene",
+            "setAll": [],
+            "children": [{
+              "type": "prefab",
+              "prefab": "0",
+              "id": "175a377d-e70e-4acd-b6ce-3a2a2dd1959e",
+              "info": {
+                "editorName": "_grpMap",
+                "editorPublic": true,
+                "x": -2521,
+                "y": 1632
+              }
+            }]
+          }
+        },
+        {
+          "type": "group",
+          "id": "3dbdf156-930c-4891-b027-9b2872bcabc0",
+          "info": {
+            "editorName": "_GameplayScene",
+            "editorPublic": true,
+            "setAll": [],
+            "children": [
+              {
+                "type": "group",
+                "id": "9e31f656-defd-4511-aba6-0d0d95645412",
+                "info": {
+                  "editorName": "Cloud",
+                  "setAll": [],
+                  "children": [
+                    {
+                      "type": "atlas-sprite",
+                      "id": "b855a0c3-c618-407e-9c57-1b6645eb4f25",
+                      "asset": "0",
+                      "info": {
+                        "editorName": "Cloud1",
+                        "editorPublic": true,
+                        "x": -2730,
+                        "y": 547,
+                        "alpha": 0.35,
+                        "anchor.x": 0.5,
+                        "anchor.y": 0.5
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "a1998373-3652-4447-8634-898f0a2db0b4",
+                      "asset": "1",
+                      "info": {
+                        "editorName": "Cloud2",
+                        "editorPublic": true,
+                        "x": -254,
+                        "y": 41,
+                        "alpha": 0.35,
+                        "anchor.x": 0.5
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "32683e29-ae38-4a2d-89af-3fd2806f9ae5",
+                      "asset": "2",
+                      "info": {
+                        "editorName": "Cloud3",
+                        "editorPublic": true,
+                        "x": -1329,
+                        "y": -44,
+                        "alpha": 0.35,
+                        "anchor.x": 0.5
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "f04b5a80-78ec-4b80-9fff-988edc7e2428",
+                      "asset": "2",
+                      "info": {
+                        "editorName": "Cloud4",
+                        "editorPublic": true,
+                        "x": -1770,
+                        "y": 597,
+                        "alpha": 0.35,
+                        "anchor.x": 0.5,
+                        "anchor.y": 0.5
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "11109e9d-c665-444b-b382-d840238a01b6",
+                      "asset": "0",
+                      "info": {
+                        "editorName": "Cloud5",
+                        "editorPublic": true,
+                        "x": -663,
+                        "y": 408,
+                        "alpha": 0.35,
+                        "anchor.x": 0.5,
+                        "anchor.y": 0.5
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "61644fe0-e25c-40d3-8d95-24b6cc7ee715",
+                      "asset": "1",
+                      "info": {
+                        "editorName": "Cloud6",
+                        "editorPublic": true,
+                        "x": -2282,
+                        "y": 137,
+                        "alpha": 0.35,
+                        "anchor.x": 0.5,
+                        "anchor.y": 0.5
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "id": "8e4def26-ef1a-47b6-b563-4e89bef485f4",
+                "info": {
+                  "editorName": "Other_player_Shoot",
+                  "editorPublic": true,
+                  "x": -481,
+                  "y": 201,
+                  "setAll": [],
+                  "children": [
+                    {
+                      "type": "atlas-sprite",
+                      "id": "abf8fe4c-3fb1-4425-b4d2-aeb7eae8a975",
+                      "asset": "3",
+                      "info": {
+                        "editorName": "Other_player_left_shoot",
+                        "editorPublic": true,
+                        "x": -63,
+                        "y": 73,
+                        "scale.x": -1,
+                        "anchor.y": 0.5
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "a9af87bb-08c9-4a6a-b7f7-b484478acaf2",
+                      "asset": "4",
+                      "info": {
+                        "editorName": "player_shoot1",
+                        "x": -44,
+                        "y": 60,
+                        "scale.x": -1,
+                        "anchor.x": 0.5,
+                        "anchor.y": 0.5
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "1081b5cb-3eb1-4093-b871-6774309dfde9",
+                      "asset": "5",
+                      "info": {
+                        "editorName": "Other_player_bow",
+                        "editorPublic": true,
+                        "x": -37,
+                        "y": 69,
+                        "scale.x": -1,
+                        "anchor.y": 0.5
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "d59ab10c-4a6b-4c7b-8a33-8cd58eef87fd",
+                      "asset": "6",
+                      "info": {
+                        "editorName": "Arrow_sheet1",
+                        "editorPublic": true,
+                        "x": 999,
+                        "y": 999,
+                        "scale.x": -0.2,
+                        "scale.y": 0.3,
+                        "animations": [
+                          {
+                            "name": "hit",
+                            "frameRate": 60,
+                            "frames": ["Arrow_02"]
+                          },
+                          {
+                            "name": "full",
+                            "frameRate": 60,
+                            "frames": ["Arrow_01"]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "95aacc0c-d5ea-4e32-896d-9f816436195e",
+                      "asset": "7",
+                      "info": {
+                        "editorName": "player_rigt_shoot1",
+                        "x": -31,
+                        "y": 68,
+                        "scale.x": -1,
+                        "anchor.x": 0.5,
+                        "anchor.y": 0.5
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "09285a96-805b-48b2-bc58-df1357a9d953",
+                "asset": "8",
+                "info": {
+                  "editorName": "enemy_idle",
+                  "editorPublic": true,
+                  "x": -433,
+                  "y": 345
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "84d24854-4320-469f-b299-674a2141057b",
+                "asset": "9",
+                "info": {
+                  "editorName": "other_player_idle",
+                  "editorPublic": true,
+                  "x": -558,
+                  "y": 690,
+                  "scale.x": -1
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "03ee93e8-c0f3-4c14-a054-9b19aefc4a90",
+                "asset": "10",
+                "info": {
+                  "editorName": "line",
+                  "editorPublic": true,
+                  "x": 271,
+                  "y": 67,
+                  "scale.x": 0,
+                  "scale.y": 0.2
+                }
+              },
+              {
+                "type": "group",
+                "id": "32cbb78a-7989-433d-bceb-7ab6a626fc3f",
+                "info": {
+                  "editorName": "enemy_Shoot",
+                  "editorPublic": true,
+                  "x": -226,
+                  "y": 77,
+                  "setAll": [],
+                  "children": [
+                    {
+                      "type": "atlas-sprite",
+                      "id": "1c2b0db8-6e26-4070-b4f5-c7ae3a37ff0a",
+                      "asset": "11",
+                      "info": {
+                        "editorName": "enemy_left_shoot",
+                        "editorPublic": true,
+                        "x": 26,
+                        "y": 62,
+                        "anchor.x": 1,
+                        "anchor.y": 0.5
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "0debfda4-9901-4f4c-8791-90abaee123ad",
+                      "asset": "12",
+                      "info": {"editorName": "enemy_shoot"}
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "2ef2fd91-6410-4280-a20f-817bac005c13",
+                      "asset": "13",
+                      "info": {
+                        "editorName": "enemy_bow",
+                        "editorPublic": true,
+                        "x": 42,
+                        "y": 62,
+                        "anchor.x": 1,
+                        "anchor.y": 0.5
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "471eb3ee-84d9-45c2-b6ca-85cdb8f2da99",
+                      "asset": "6",
+                      "info": {
+                        "editorName": "Enemy_Arrow_sheet",
+                        "editorPublic": true,
+                        "x": 1303,
+                        "y": 1177,
+                        "scale.x": -0.2,
+                        "scale.y": 0.3,
+                        "anchor.y": 0.5,
+                        "animations": [
+                          {
+                            "name": "hit",
+                            "frameRate": 60,
+                            "frames": ["Arrow_02"]
+                          },
+                          {
+                            "name": "full",
+                            "frameRate": 60,
+                            "frames": ["Arrow_01"]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "4a4839a8-b42e-4547-8b86-88240823d8d5",
+                      "asset": "14",
+                      "info": {
+                        "editorName": "enemy_right_shoot",
+                        "x": 40,
+                        "y": 58
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "id": "2608d48c-102b-465d-a132-d8807455e9e6",
+                "info": {
+                  "editorName": "Player",
+                  "setAll": [],
+                  "children": [
+                    {
+                      "type": "group",
+                      "id": "66438ef8-f419-4e12-9b26-2ab4ce305abd",
+                      "info": {
+                        "editorName": "Player_Shoot",
+                        "editorPublic": true,
+                        "x": -588,
+                        "y": 90,
+                        "setAll": [],
+                        "children": [
+                          {
+                            "type": "atlas-sprite",
+                            "id": "c9423710-536f-403e-87e0-45b1685c52a5",
+                            "asset": "3",
+                            "info": {
+                              "editorName": "player_left_shoot",
+                              "editorPublic": true,
+                              "x": 58,
+                              "y": 72,
+                              "anchor.y": 0.5
+                            }
+                          },
+                          {
+                            "type": "atlas-sprite",
+                            "id": "eb47157f-4169-4959-8d07-b43075d4b033",
+                            "asset": "4",
+                            "info": {"editorName": "player_shoot"}
+                          },
+                          {
+                            "type": "atlas-sprite",
+                            "id": "ada18b1e-5b69-4761-bc2e-2e0b016aec5a",
+                            "asset": "5",
+                            "info": {
+                              "editorName": "player_bow",
+                              "editorPublic": true,
+                              "x": 33,
+                              "y": 69,
+                              "anchor.y": 0.5
+                            }
+                          },
+                          {
+                            "type": "atlas-sprite",
+                            "id": "f33aa0da-91ee-4456-aefd-327a56769ac0",
+                            "asset": "6",
+                            "info": {
+                              "editorName": "Arrow_sheet",
+                              "editorPublic": true,
+                              "x": 445,
+                              "y": 1368,
+                              "scale.x": 0.2,
+                              "scale.y": 0.3,
+                              "animations": [
+                                {
+                                  "name": "hit",
+                                  "frameRate": 60,
+                                  "frames": ["Arrow_02"]
+                                },
+                                {
+                                  "name": "full",
+                                  "frameRate": 60,
+                                  "frames": ["Arrow_01"]
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "type": "atlas-sprite",
+                            "id": "612800e3-baa3-42f3-8947-b2b4c37c60eb",
+                            "asset": "7",
+                            "info": {
+                              "editorName": "player_rigt_shoot",
+                              "x": 18,
+                              "y": 60
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "0f81d926-a5d4-42b3-9466-b9291e98e003",
+                      "asset": "15",
+                      "info": {
+                        "editorName": "Player_Head_Collider",
+                        "editorPublic": true,
+                        "x": -79,
+                        "y": 62,
+                        "alpha": 0
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "34f0918c-cb5d-4e06-9fbf-366802666ed9",
+                      "asset": "16",
+                      "info": {
+                        "editorName": "Player_Body_Collider",
+                        "editorPublic": true,
+                        "x": -97,
+                        "y": 85,
+                        "alpha": 0
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "9f3803db-7e7b-45a9-a224-825358d47710",
+                      "asset": "17",
+                      "info": {
+                        "editorName": "player_head_Shoot",
+                        "editorPublic": true,
+                        "x": -240,
+                        "y": 527,
+                        "anchor.x": 0.5,
+                        "anchor.y": 0.5
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "2338d309-9701-48b9-bc68-486d09e99313",
+                      "asset": "18",
+                      "info": {
+                        "editorName": "player_health",
+                        "editorPublic": true,
+                        "x": -407,
+                        "y": 123,
+                        "scale.x": 0.3,
+                        "scale.y": 0.3,
+                        "animations": [
+                          {
+                            "name": "half",
+                            "frameRate": 60,
+                            "frames": ["ground_health_half"]
+                          },
+                          {
+                            "name": "death",
+                            "frameRate": 60,
+                            "frames": ["ground_health_death"]
+                          },
+                          {
+                            "name": "full",
+                            "frameRate": 60,
+                            "frames": ["ground_health_full"]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "atlas-sprite",
+                      "id": "6d3b61ef-7225-476b-882a-fd3569646482",
+                      "asset": "9",
+                      "info": {
+                        "editorName": "player_idle",
+                        "editorPublic": true,
+                        "x": -587,
+                        "y": 271
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "group",
+                "id": "cde16126-8fa3-42fc-b5b6-836fd9440400",
+                "info": {
+                  "editorName": "Characters",
+                  "setAll": [],
+                  "children": [{
+                    "type": "prefab",
+                    "prefab": "1",
+                    "id": "913c4d0c-40da-4f89-818e-499cc59e8c91",
+                    "info": {
+                      "editorName": "_grp_characterSkin",
+                      "editorPublic": true,
+                      "x": 0,
+                      "y": 0
+                    }
+                  }]
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "30601553-a09b-481b-804f-b4672d52317a",
+                "asset": "19",
+                "info": {
+                  "editorName": "input_Point_End",
+                  "editorPublic": true,
+                  "x": -433,
+                  "y": 549,
+                  "anchor.x": 0.5,
+                  "anchor.y": 0.5
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "7d291dcf-f882-492b-a7a6-c4964ff9c89f",
+                "asset": "19",
+                "info": {
+                  "editorName": "input_Point_Start",
+                  "editorPublic": true,
+                  "x": -433,
+                  "y": 650,
+                  "anchor.x": 0.5,
+                  "anchor.y": 0.5
+                }
+              },
+              {
+                "type": "text",
+                "id": "4cfb67ed-aaf1-403c-b2fc-ec17a2a52893",
+                "info": {
+                  "editorName": "dot",
+                  "editorPublic": true,
+                  "editorShow": false,
+                  "x": 130,
+                  "y": 13,
+                  "text": ":",
+                  "style.fontSize": 25,
+                  "style.fill": "#ffffff"
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "10ea70e5-1f46-4b47-b341-dd771d08780d",
+                "asset": "18",
+                "info": {
+                  "editorName": "enemy_health",
+                  "editorPublic": true,
+                  "x": -258,
+                  "y": 212,
+                  "scale.x": 0.3,
+                  "scale.y": 0.3,
+                  "animations": [
+                    {
+                      "name": "half",
+                      "frameRate": 60,
+                      "frames": ["ground_health_half"]
+                    },
+                    {
+                      "name": "death",
+                      "frameRate": 60,
+                      "frames": ["ground_health_death"]
+                    },
+                    {
+                      "name": "full",
+                      "frameRate": 60,
+                      "frames": ["ground_health_full"]
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "731817f1-2ee3-4c7f-8434-c1e4c9c512a0",
+                "asset": "15",
+                "info": {
+                  "editorName": "enemy_Head_Collider",
+                  "editorPublic": true,
+                  "x": 7,
+                  "y": 1,
+                  "alpha": 0
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "62147c8b-b450-4e97-9616-1a827c93c2a8",
+                "asset": "16",
+                "info": {
+                  "editorName": "enemy_Body_Collider",
+                  "editorPublic": true,
+                  "x": 9,
+                  "y": 49,
+                  "alpha": 0
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "b244bc68-4424-4e7b-814e-32be57f675d5",
+                "asset": "17",
+                "info": {
+                  "editorName": "enemy_head_Shot",
+                  "editorPublic": true,
+                  "x": -243,
+                  "y": 98,
+                  "anchor.x": 0.5,
+                  "anchor.y": 0.5
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "042a178f-f8b9-4a50-b446-bb03f499d23c",
+                "asset": "20",
+                "info": {
+                  "editorName": "Wall_1",
+                  "editorPublic": true,
+                  "x": 1006,
+                  "y": 774,
+                  "scale.x": 0.5,
+                  "scale.y": 0.5,
+                  "anchor.x": 0.5,
+                  "anchor.y": 0.5
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "1fa5141f-c51c-47b9-ab50-823fce0a74d0",
+                "asset": "20",
+                "info": {
+                  "editorName": "Wall_4",
+                  "editorPublic": true,
+                  "x": 981,
+                  "y": 998,
+                  "scale.x": 0.5,
+                  "scale.y": 0.15,
+                  "anchor.x": 0.5,
+                  "anchor.y": 0.5
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "56934d05-f18b-499c-a78d-20c318dee446",
+                "asset": "20",
+                "info": {
+                  "editorName": "Wall_2",
+                  "editorPublic": true,
+                  "x": 981,
+                  "y": 998,
+                  "scale.x": 0.5,
+                  "scale.y": 0.15,
+                  "anchor.x": 0.5,
+                  "anchor.y": 0.5
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "e82087ad-418d-4c22-8e6e-6d62dbb13ac0",
+                "asset": "20",
+                "info": {
+                  "editorName": "Wall_3",
+                  "editorPublic": true,
+                  "x": 981,
+                  "y": 998,
+                  "scale.x": 0.5,
+                  "scale.y": 0.15,
+                  "anchor.x": 0.5,
+                  "anchor.y": 0.5
+                }
+              },
+              {
+                "type": "prefab",
+                "prefab": "2",
+                "id": "a70e7804-3b7c-4a96-9be0-4f565d273e2d",
+                "info": {
+                  "editorName": "_grp_Tutorial",
+                  "x": 3,
+                  "y": 51
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "5ef0ac67-d820-4c23-abeb-466161faa00f",
+                "asset": "16",
+                "info": {
+                  "editorName": "Point_Player",
+                  "editorPublic": true,
+                  "x": 90,
+                  "y": 693,
+                  "scale.y": 0.3,
+                  "alpha": 0,
+                  "anchor.x": 0.5,
+                  "anchor.y": 0.5
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "4f9cd8a3-f236-4f51-bd66-1659174ca99c",
+                "asset": "16",
+                "info": {
+                  "editorName": "Point_Enemy",
+                  "editorPublic": true,
+                  "x": 512,
+                  "y": 627,
+                  "scale.y": 0.3,
+                  "alpha": 0,
+                  "anchor.x": 0.5,
+                  "anchor.y": 0.5
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "4e701375-d2fd-4c93-ad56-ee9beb88201b",
+                "asset": "16",
+                "info": {
+                  "editorName": "Point_Player_Bottom",
+                  "editorPublic": true,
+                  "x": -1170,
+                  "y": 1010,
+                  "scale.y": 0.3,
+                  "alpha": 0,
+                  "anchor.x": 0.5,
+                  "anchor.y": 0.5
+                }
+              },
+              {
+                "type": "atlas-sprite",
+                "id": "ee97aaf2-68d5-4157-8582-31479ac47bb0",
+                "asset": "16",
+                "info": {
+                  "editorName": "Point_Player_Top",
+                  "editorPublic": true,
+                  "x": -1170,
+                  "y": 1010,
+                  "scale.y": 0.3,
+                  "alpha": 0,
+                  "anchor.x": 0.5,
+                  "anchor.y": 0.5
+                }
+              },
+              {
+                "type": "text",
+                "id": "a3dc08b6-5776-4fb0-b8a7-100205e0993d",
+                "info": {
+                  "editorName": "txt_player_01",
+                  "editorPublic": true,
+                  "x": -840,
+                  "y": 173,
+                  "anchor.x": 0.5,
+                  "text": "Player 1",
+                  "style.fontSize": 25,
+                  "style.fill": "#3684ff"
+                }
+              },
+              {
+                "type": "text",
+                "id": "230a490e-cfa8-49f9-932a-b7226197bd29",
+                "info": {
+                  "editorName": "txt_player_02",
+                  "editorPublic": true,
+                  "x": -791,
+                  "y": 110,
+                  "anchor.x": 0.5,
+                  "text": "Player 2",
+                  "style.fontSize": 25,
+                  "style.fill": "#ff2403"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "3",
+          "id": "c989ee1f-be6b-4c1c-8f3b-68c0ec2a9faf",
+          "info": {
+            "editorName": "_grp_PauseMenu",
+            "editorPublic": true,
+            "x": 5051,
+            "y": -35
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "4",
+          "id": "7e7a9ac9-e9d8-4fd4-87a8-f0ff5876aaa9",
+          "info": {
+            "editorName": "_grpTimeDuel",
+            "editorPublic": true,
+            "x": -1313,
+            "y": 1152
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "5",
+          "id": "b01b2e87-b1fb-4951-a711-f9a4d889dfaf",
+          "info": {
+            "editorName": "_grpInforPrefab",
+            "editorPublic": true,
+            "x": 1907,
+            "y": -669
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "6",
+          "id": "9c55dce0-1ea0-435d-88bf-c5760bf84b51",
+          "info": {
+            "editorName": "_grpWorldMapScene",
+            "editorPublic": true,
+            "x": 2012,
+            "y": 142
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "7",
+          "id": "d7beace6-e089-4051-af6d-d73f7db61ed7",
+          "info": {
+            "editorName": "_grpLeaderBoardPrefab",
+            "x": -180,
+            "y": 1833
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "8",
+          "id": "057ecad1-b068-49d6-b7a1-57e690f76a34",
+          "info": {
+            "editorName": "_grpMapDuel",
+            "x": -1222,
+            "y": 1676
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "9",
+          "id": "9008dbc6-5213-488c-bd30-6f551eb46ab8",
+          "info": {
+            "editorName": "_grpMainMenuPrefab",
+            "editorPublic": true,
+            "x": -4487,
+            "y": -551
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "10",
+          "id": "fe109237-9a14-4cdb-91f7-b6bd935279ac",
+          "info": {
+            "editorName": "_grpResultDuelMode",
+            "editorPublic": true,
+            "x": 820,
+            "y": -1332
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "11",
+          "id": "38f377d9-c109-48c3-8a9c-094c09f08c9e",
+          "info": {
+            "editorName": "_grp_GameOver",
+            "x": 0,
+            "y": -1293
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "12",
+          "id": "b408f723-7757-4ead-aa1e-f56268260dea",
+          "info": {
+            "editorName": "_grp_Terms",
+            "editorPublic": true,
+            "x": 4208,
+            "y": 151
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "13",
+          "id": "e8c5c431-f153-4d2c-ac38-1f42f3296300",
+          "info": {
+            "editorName": "_grp_buyNotification",
+            "x": 3197,
+            "y": 3364
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "14",
+          "id": "2d894248-daa1-4491-9e3e-ec5b55dac8ba",
+          "info": {
+            "editorName": "_grp_IAP",
+            "editorPublic": true,
+            "x": -1910,
+            "y": -557
+          }
+        },
+        {
+          "type": "prefab",
+          "prefab": "15",
+          "id": "bb0ced2f-947c-4aa9-b42f-1cd9e17c6419",
+          "info": {
+            "editorName": "_grp_SelectStagePrefab",
+            "x": 9378,
+            "y": -3569
+          }
+        }
+      ]
+    }
+  },
+  "type": "STATE",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "Cloud01"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "Cloud02"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "Cloud03"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "player_left_shoot"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "player_shoot"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "player_bow"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "Arrow_01"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "player_rigt_shoot"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "enemy_idle"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "player_idle"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "tutorialline-sheet0"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "enemy_right_shoot"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "enemy_shoot"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "enemy_bow"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "enemy_left_shoot"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "Head_Collider"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "Body_Collider"
+    },
+    "17": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "head_Shot"
+    },
+    "18": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "ground_health_full"
+    },
+    "19": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "input_Point"
+    },
+    "20": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "Wall"
+    }
+  },
+  "prefab-table": {
+    "10": "WebContent/assets/prefab/resultDuel.canvas",
+    "11": "WebContent/assets/prefab/gameOverPrefab.canvas",
+    "12": "WebContent/assets/prefab/TermsPrefab.canvas",
+    "13": "WebContent/assets/prefab/buyNotificationPrefab.canvas",
+    "14": "WebContent/assets/prefab/IAPPrefab.canvas",
+    "15": "WebContent/assets/prefab/selectStagePrefab.canvas",
+    "0": "WebContent/assets/prefab/mapPrefab.canvas",
+    "1": "WebContent/assets/prefab/Characters/CharacterSkin.canvas",
+    "2": "WebContent/assets/prefab/tutorialPrefab.canvas",
+    "3": "WebContent/assets/prefab/pauseMenuPrefab.canvas",
+    "4": "WebContent/assets/prefab/timeDuelPrefab.canvas",
+    "5": "WebContent/assets/prefab/inforPrefab.canvas",
+    "6": "WebContent/assets/prefab/worldMapPrefab.canvas",
+    "7": "WebContent/assets/prefab/leaderBoardPrefab.canvas",
+    "8": "WebContent/assets/prefab/mapDuelPrefab.canvas",
+    "9": "WebContent/assets/prefab/mainMenuPrefab.canvas"
+  }
+}

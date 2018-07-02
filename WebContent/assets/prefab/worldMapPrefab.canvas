@@ -1,0 +1,908 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "worldMapPrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "c788e3f3-beba-46e5-80c9-daf629ec7576",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "04a2208a-5a9a-49b6-9039-c0911cf7ebe6",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "8b900267-6c59-42d6-a8c4-a15f369690b0",
+              "asset": "0",
+              "info": {
+                "editorName": "BackGround",
+                "editorPublic": true
+              }
+            },
+            {
+              "type": "image",
+              "id": "c2048b4f-a1ab-47fe-b86c-da195cb87382",
+              "asset": "1",
+              "info": {
+                "editorName": "BackGround_Line",
+                "editorPublic": true,
+                "x": 3,
+                "y": 4
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "77065d19-c531-42b2-b748-a50b4925e3f1",
+              "asset": "2",
+              "info": {
+                "editorName": "point0",
+                "editorPublic": true,
+                "x": 322,
+                "y": 3629,
+                "scale.x": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "784ac40d-b59b-4c38-adb0-d50e4446caf3",
+              "asset": "2",
+              "info": {
+                "editorName": "point1",
+                "editorPublic": true,
+                "x": 572,
+                "y": 3558,
+                "scale.x": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "70617a63-811e-47cb-9091-6451f0ff0992",
+              "asset": "2",
+              "info": {
+                "editorName": "point2",
+                "editorPublic": true,
+                "x": 607,
+                "y": 3370,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "61c2e3b1-24d7-490d-b5ae-9c0b5afafdb2",
+              "asset": "2",
+              "info": {
+                "editorName": "point3",
+                "editorPublic": true,
+                "x": 402,
+                "y": 3297,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "c595edff-8c99-4de4-a0b0-5703146420ef",
+              "asset": "2",
+              "info": {
+                "editorName": "point4",
+                "editorPublic": true,
+                "x": 264,
+                "y": 3167,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "86eff289-4e77-4828-9ce1-e8b1f06e95db",
+              "asset": "2",
+              "info": {
+                "editorName": "point5",
+                "editorPublic": true,
+                "x": 557,
+                "y": 3118,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "3f92465d-1375-48dc-a0db-147bf6e90742",
+              "asset": "2",
+              "info": {
+                "editorName": "point6",
+                "editorPublic": true,
+                "x": 391,
+                "y": 2820,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "6c3fff8b-e579-41a2-96c5-4dce7b2d93cd",
+              "asset": "2",
+              "info": {
+                "editorName": "point7",
+                "editorPublic": true,
+                "x": 435,
+                "y": 2519,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "6c9645f1-dfb1-4565-8ad8-624077cd226b",
+              "asset": "2",
+              "info": {
+                "editorName": "point8",
+                "editorPublic": true,
+                "x": 302,
+                "y": 2292,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "931aad04-a0fb-4d9c-af15-4734f1129216",
+              "asset": "2",
+              "info": {
+                "editorName": "point9",
+                "editorPublic": true,
+                "x": 619,
+                "y": 2129,
+                "scale.x": 1.1,
+                "scale.y": 1.1,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "5327f992-62d6-425f-a361-ed5c7dda432d",
+              "asset": "2",
+              "info": {
+                "editorName": "point10",
+                "editorPublic": true,
+                "x": 304,
+                "y": 2155,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "a4d38e95-e37c-42bc-9275-bf1b2005f531",
+              "asset": "2",
+              "info": {
+                "editorName": "point11",
+                "editorPublic": true,
+                "x": 454,
+                "y": 1955,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "f67d03cb-033e-4eb5-af6c-90a7c43a3d6f",
+              "asset": "2",
+              "info": {
+                "editorName": "point12",
+                "editorPublic": true,
+                "x": 136,
+                "y": 1797,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "b389bd49-2b12-4ac5-99c7-8cb29dfd1a1e",
+              "asset": "2",
+              "info": {
+                "editorName": "point13",
+                "editorPublic": true,
+                "x": 350,
+                "y": 1404,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "96e62ff4-5fb0-4f6d-9526-0eb1e7422af9",
+              "asset": "2",
+              "info": {
+                "editorName": "point14",
+                "editorPublic": true,
+                "x": 639,
+                "y": 1224,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "cee94de0-86c0-4642-bdc6-accae81ce031",
+              "asset": "2",
+              "info": {
+                "editorName": "point15",
+                "editorPublic": true,
+                "x": 555,
+                "y": 996,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "8edb0f06-1a00-470e-90a0-775bd263b691",
+              "asset": "2",
+              "info": {
+                "editorName": "point16",
+                "editorPublic": true,
+                "x": 352,
+                "y": 850,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "d3c8c561-8542-4b42-9df5-a6dfb97cdf4f",
+              "asset": "2",
+              "info": {
+                "editorName": "point17",
+                "editorPublic": true,
+                "x": 282,
+                "y": 644,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "78a3de1d-537e-49a2-877a-378106058703",
+              "asset": "2",
+              "info": {
+                "editorName": "point18",
+                "editorPublic": true,
+                "x": 459,
+                "y": 624,
+                "scale.x": 0.8,
+                "scale.y": 0.8,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "15dbdc1f-38e3-4001-87b6-a76a3fc80aa5",
+              "asset": "2",
+              "info": {
+                "editorName": "point19",
+                "editorPublic": true,
+                "x": 587,
+                "y": 483,
+                "scale.x": 1.1,
+                "scale.y": 1.1,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "07d7ed59-227e-4c65-aa0d-f946a0bc3244",
+              "asset": "2",
+              "info": {
+                "editorName": "point20",
+                "editorPublic": true,
+                "x": 2472,
+                "y": 2073,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "97f33aff-877a-44b0-ba60-85e41079a32d",
+              "asset": "2",
+              "info": {
+                "editorName": "point21",
+                "editorPublic": true,
+                "x": 2441,
+                "y": 1961,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "32927a43-7826-453f-a516-5d35291df239",
+              "asset": "2",
+              "info": {
+                "editorName": "point22",
+                "editorPublic": true,
+                "x": 2285,
+                "y": 2022,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "ef55c876-0511-4cb0-919c-6d050f3a50a6",
+              "asset": "2",
+              "info": {
+                "editorName": "point23",
+                "editorPublic": true,
+                "x": 2113,
+                "y": 2079,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "c79409dc-c7de-40a6-b020-76241fa10070",
+              "asset": "2",
+              "info": {
+                "editorName": "point24",
+                "editorPublic": true,
+                "x": 2076,
+                "y": 1971,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "e463c439-f67d-4182-9e9e-bb135491f975",
+              "asset": "2",
+              "info": {
+                "editorName": "point25",
+                "editorPublic": true,
+                "x": 2229,
+                "y": 1890,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "b2ccf7f3-e83d-4622-8bfc-f467f96653da",
+              "asset": "2",
+              "info": {
+                "editorName": "point26",
+                "editorPublic": true,
+                "x": 2353,
+                "y": 1788,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "19b53280-7409-44ed-b905-752d8bd0bd89",
+              "asset": "2",
+              "info": {
+                "editorName": "point27",
+                "editorPublic": true,
+                "x": 2154,
+                "y": 1777,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "ff66ad9d-2c1c-493c-9774-eb8cd00b2ab6",
+              "asset": "2",
+              "info": {
+                "editorName": "point28",
+                "editorPublic": true,
+                "x": 1962,
+                "y": 1724,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "5e8ca629-2eef-4f37-867e-ab4692ffb909",
+              "asset": "2",
+              "info": {
+                "editorName": "point29",
+                "editorPublic": true,
+                "x": 1921,
+                "y": 1553,
+                "scale.x": 1.5,
+                "scale.y": 1.5,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "fc4fec98-20f1-421f-8740-86040d19a03b",
+              "asset": "2",
+              "info": {
+                "editorName": "point30",
+                "editorPublic": true,
+                "x": 2042,
+                "y": 1373,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "f71d3ffe-dcf8-4324-995b-a7a0a23e9311",
+              "asset": "2",
+              "info": {
+                "editorName": "point31",
+                "editorPublic": true,
+                "x": 2218,
+                "y": 1292,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "00b206a9-eade-441d-9af7-80659faaf973",
+              "asset": "2",
+              "info": {
+                "editorName": "point32",
+                "editorPublic": true,
+                "x": 2407,
+                "y": 1190,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "5370d8fc-7674-41f3-9102-69cb64e6c50f",
+              "asset": "2",
+              "info": {
+                "editorName": "point33",
+                "editorPublic": true,
+                "x": 2484,
+                "y": 1061,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "cce9d681-413d-46e4-9182-2d487b94b0c7",
+              "asset": "2",
+              "info": {
+                "editorName": "point34",
+                "editorPublic": true,
+                "x": 2405,
+                "y": 903,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "9bd2df89-670e-4197-8d95-fb21674fb7ad",
+              "asset": "2",
+              "info": {
+                "editorName": "point35",
+                "editorPublic": true,
+                "x": 2202,
+                "y": 822,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "6fb6bca3-419f-4d36-8d8c-bc0671133c58",
+              "asset": "2",
+              "info": {
+                "editorName": "point36",
+                "editorPublic": true,
+                "x": 2206,
+                "y": 680,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "3d139b9f-d89c-49b7-b0ca-96457c61bf47",
+              "asset": "2",
+              "info": {
+                "editorName": "point37",
+                "editorPublic": true,
+                "x": 2107,
+                "y": 539,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "cf2730dc-70e3-466f-ac70-b15a16d898c8",
+              "asset": "2",
+              "info": {
+                "editorName": "point38",
+                "editorPublic": true,
+                "x": 2318,
+                "y": 528,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "74567134-d276-40c4-90c5-22a49e9c8e17",
+              "asset": "2",
+              "info": {
+                "editorName": "point39",
+                "editorPublic": true,
+                "x": 2972,
+                "y": 425,
+                "scale.x": 1.5,
+                "scale.y": 1.5,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "c255c6a4-881b-43b9-9f79-fe8dadae133c",
+              "asset": "2",
+              "info": {
+                "editorName": "point40",
+                "editorPublic": true,
+                "x": 3162,
+                "y": 2260,
+                "scale.x": 0.75,
+                "scale.y": 0.75,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "e9be9a7c-2935-4b93-bc00-6fce0055f02c",
+              "asset": "2",
+              "info": {
+                "editorName": "point41",
+                "editorPublic": true,
+                "x": 3202,
+                "y": 2207,
+                "scale.x": 0.75,
+                "scale.y": 0.75,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "ff19bb9b-d831-40e7-81d4-31e31d0418c2",
+              "asset": "2",
+              "info": {
+                "editorName": "point42",
+                "editorPublic": true,
+                "x": 3285,
+                "y": 2195,
+                "scale.x": 0.75,
+                "scale.y": 0.75,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "142f81e1-9de5-4833-baba-9ebd034539e3",
+              "asset": "2",
+              "info": {
+                "editorName": "point43",
+                "editorPublic": true,
+                "x": 3367,
+                "y": 2186,
+                "scale.x": 0.75,
+                "scale.y": 0.75,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "673398f5-fd48-4bc2-83aa-0dac9d2e55c2",
+              "asset": "2",
+              "info": {
+                "editorName": "point44",
+                "editorPublic": true,
+                "x": 3452,
+                "y": 2175,
+                "scale.x": 0.75,
+                "scale.y": 0.75,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "e3c2c497-c779-4315-a573-4aea8a6d6197",
+              "asset": "2",
+              "info": {
+                "editorName": "point45",
+                "editorPublic": true,
+                "x": 3537,
+                "y": 2148,
+                "scale.x": 0.75,
+                "scale.y": 0.75,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "f26e1629-ad2e-4a4e-b3f7-bea6d863f66f",
+              "asset": "2",
+              "info": {
+                "editorName": "point46",
+                "editorPublic": true,
+                "x": 3573,
+                "y": 2084,
+                "scale.x": 0.75,
+                "scale.y": 0.75,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "32b7fb23-5b8d-4849-95e6-e684ec98b57d",
+              "asset": "2",
+              "info": {
+                "editorName": "point47",
+                "editorPublic": true,
+                "x": 3553,
+                "y": 2021,
+                "scale.x": 0.75,
+                "scale.y": 0.75,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "6773d361-9d95-48e5-8a0a-1878b3d34142",
+              "asset": "2",
+              "info": {
+                "editorName": "point48",
+                "editorPublic": true,
+                "x": 3458,
+                "y": 2037,
+                "scale.x": 0.75,
+                "scale.y": 0.75,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "15d4bc6b-9edc-4759-853d-97db9d109f4c",
+              "asset": "2",
+              "info": {
+                "editorName": "point49",
+                "editorPublic": true,
+                "x": 3361,
+                "y": 2076,
+                "scale.x": 1.2,
+                "scale.y": 1.2,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "bb3d3952-3b37-44aa-a5bb-c156ff656929",
+              "asset": "2",
+              "info": {
+                "editorName": "point50",
+                "editorPublic": true,
+                "x": 3267,
+                "y": 2110,
+                "scale.x": 0.75,
+                "scale.y": 0.75,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "cc8b9150-deea-4750-a8d1-b77c9a2277af",
+              "asset": "3",
+              "info": {
+                "editorName": "player_animation_Idle",
+                "editorPublic": true,
+                "x": 227,
+                "y": 3608,
+                "scale.x": 0.7,
+                "scale.y": 0.7,
+                "anchor.x": 1,
+                "anchor.y": 1
+              }
+            },
+            {
+              "type": "image",
+              "id": "cd8dda99-221b-4fdb-a31d-2f2b6bff4527",
+              "asset": "4",
+              "info": {
+                "editorName": "BG_Cloud",
+                "editorPublic": true,
+                "x": 1790,
+                "y": 5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "ad8d1d14-0b0e-45ec-b812-fea93482b683",
+              "asset": "5",
+              "info": {
+                "editorName": "star",
+                "x": 700,
+                "y": 4023
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "b5e091fc-df00-4a00-ac60-ab82b4307315",
+              "asset": "6",
+              "info": {
+                "editorName": "char_0",
+                "x": -41,
+                "y": 2448
+              }
+            },
+            {
+              "type": "group",
+              "id": "19b555c4-6091-4634-9e9a-e918380b3f92",
+              "info": {
+                "editorName": "grp_characters",
+                "setAll": [],
+                "children": [{
+                  "type": "prefab",
+                  "prefab": "0",
+                  "id": "0618cb0c-3b06-4cee-9ac1-0cd656eb6229",
+                  "info": {
+                    "editorName": "Astoria",
+                    "editorPublic": true,
+                    "x": -683,
+                    "y": 2446
+                  }
+                }]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "worldMap"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "World_Map_Line"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "AR_worldmap_button02"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "characterAtlas",
+      "sprite": "player_idle"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "BG_Cloud"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "star"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "ItemShop1Atlas",
+      "sprite": "char_0"
+    }
+  },
+  "prefab-table": {"0": "WebContent/assets/prefab/Characters/Astoria/astoriaPrefab.canvas"}
+}

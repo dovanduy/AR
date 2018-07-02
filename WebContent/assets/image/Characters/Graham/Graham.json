@@ -1,0 +1,309 @@
+{
+  "frames": {
+    "Graham_body_act": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 544,
+        "y": 438,
+        "w": 122,
+        "h": 213
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 122,
+        "h": 213
+      },
+      "sourceSize": {
+        "w": 122,
+        "h": 213
+      }
+    },
+    "act_hand1": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 614,
+        "y": 10,
+        "w": 74,
+        "h": 40
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 74,
+        "h": 40
+      },
+      "sourceSize": {
+        "w": 74,
+        "h": 40
+      }
+    },
+    "act_hand2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 668,
+        "y": 236,
+        "w": 91,
+        "h": 33
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 91,
+        "h": 33
+      },
+      "sourceSize": {
+        "w": 91,
+        "h": 33
+      }
+    },
+    "act_hand2fingers": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 614,
+        "y": 52,
+        "w": 91,
+        "h": 33
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 91,
+        "h": 33
+      },
+      "sourceSize": {
+        "w": 91,
+        "h": 33
+      }
+    },
+    "bow_act": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 614,
+        "y": 87,
+        "w": 84,
+        "h": 135
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 84,
+        "h": 135
+      },
+      "sourceSize": {
+        "w": 84,
+        "h": 135
+      }
+    },
+    "daycung_2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 736,
+        "y": 124,
+        "w": 54,
+        "h": 110
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 54,
+        "h": 110
+      },
+      "sourceSize": {
+        "w": 54,
+        "h": 110
+      }
+    },
+    "Graham_equip_anim1": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 273,
+        "y": 185,
+        "w": 269,
+        "h": 466
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 269,
+        "h": 466
+      },
+      "sourceSize": {
+        "w": 269,
+        "h": 466
+      }
+    },
+    "Graham_equip_anim2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 185,
+        "w": 269,
+        "h": 466
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 269,
+        "h": 466
+      },
+      "sourceSize": {
+        "w": 269,
+        "h": 466
+      }
+    },
+    "Graham_hand_anim1": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 668,
+        "y": 462,
+        "w": 112,
+        "h": 189
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 189
+      },
+      "sourceSize": {
+        "w": 112,
+        "h": 189
+      }
+    },
+    "Graham_hand_anim2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 668,
+        "y": 271,
+        "w": 112,
+        "h": 189
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 189
+      },
+      "sourceSize": {
+        "w": 112,
+        "h": 189
+      }
+    },
+    "bow_anim1": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 304,
+        "h": 181
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 304,
+        "h": 181
+      },
+      "sourceSize": {
+        "w": 304,
+        "h": 181
+      }
+    },
+    "bow_anim2": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 308,
+        "y": 2,
+        "w": 304,
+        "h": 181
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 304,
+        "h": 181
+      },
+      "sourceSize": {
+        "w": 304,
+        "h": 181
+      }
+    },
+    "Graham_body_idle": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 544,
+        "y": 224,
+        "w": 122,
+        "h": 212
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 122,
+        "h": 212
+      },
+      "sourceSize": {
+        "w": 122,
+        "h": 212
+      }
+    },
+    "Grahamy_hand_idle": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 736,
+        "y": 36,
+        "w": 51,
+        "h": 86
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 51,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 51,
+        "h": 86
+      }
+    },
+    "bow_idle": {
+      "trimmed": false,
+      "rotated": false,
+      "frame": {
+        "x": 700,
+        "y": 99,
+        "w": 34,
+        "h": 135
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 34,
+        "h": 135
+      },
+      "sourceSize": {
+        "w": 34,
+        "h": 135
+      }
+    }
+  },
+  "meta": {
+    "app": "Phaser Editor",
+    "version": "1",
+    "image": "Graham.png"
+  }
+}

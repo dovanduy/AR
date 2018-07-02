@@ -1,0 +1,687 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "resultDuel",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "64aa46bc-f079-4048-a910-38920a754955",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "2eb62c33-bac1-4bcc-812b-15bc8ce3bb48",
+        "info": {
+          "editorName": "group",
+          "x": 3,
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "4a7672e0-dc75-4870-a132-3c47c596d48c",
+              "asset": "0",
+              "info": {
+                "editorName": "BG_Empty",
+                "x": -2,
+                "y": 211,
+                "scale.y": 0.85
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "3a3e96da-3dbc-40f0-9d93-71a28273362a",
+              "asset": "1",
+              "info": {
+                "editorName": "score_bar",
+                "x": 5,
+                "y": 701,
+                "scale.x": 0.975,
+                "scale.y": 0.97
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "0828347a-7090-450f-aa5f-0d0498d50613",
+              "asset": "2",
+              "info": {
+                "editorName": "result_Duel",
+                "editorPublic": true,
+                "x": -1,
+                "y": 222,
+                "scale.x": 1.005
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "559ee550-4158-4cef-aa04-30d488d98bd4",
+              "asset": "3",
+              "info": {
+                "editorName": "avatar_bar",
+                "y": 331,
+                "scale.x": 1.02
+              }
+            },
+            {
+              "type": "group",
+              "id": "4d7a857f-5fbc-4878-8128-4f72ad13645f",
+              "info": {
+                "editorName": "_grp_Avatar",
+                "editorPublic": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "ab1715c2-5be5-4923-87d3-25f35bacc4ec",
+                    "asset": "4",
+                    "info": {
+                      "editorName": "avatar_frame1",
+                      "editorPublic": true,
+                      "x": 512,
+                      "y": 355
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "d407c04b-f0cf-4ccd-8330-61ce64667d72",
+                    "asset": "5",
+                    "info": {
+                      "editorName": "avatar_frame",
+                      "editorPublic": true,
+                      "x": 47,
+                      "y": 355
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "fb5ecc02-8499-4ec8-a1eb-d03d51c5f7c5",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "profile_sample",
+                      "editorPublic": true,
+                      "x": 124,
+                      "y": 427,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "fdb054c3-f71d-4fad-823c-85392e15a189",
+                    "info": {
+                      "editorName": "_grp_Emotion_Master",
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "atlas-sprite",
+                          "id": "e7586d42-1b04-403b-9c46-3129ab0011ae",
+                          "asset": "7",
+                          "info": {
+                            "editorName": "Emotion_Master_2",
+                            "editorPublic": true,
+                            "x": -1294,
+                            "y": 495
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "a8b5bf18-17a6-4515-bbe6-3da18c628336",
+                          "asset": "8",
+                          "info": {
+                            "editorName": "Emotion_Master_3",
+                            "editorPublic": true,
+                            "x": -1234,
+                            "y": 555
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "a47091d7-2436-4e57-a8fa-1d5372f0c7ef",
+                          "asset": "9",
+                          "info": {
+                            "editorName": "Emotion_Master_4",
+                            "editorPublic": true,
+                            "x": -1174,
+                            "y": 614
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "3fabb6da-8ebe-4696-9060-0db9c611d6bd",
+                          "asset": "10",
+                          "info": {
+                            "editorName": "Emotion_Master_5",
+                            "editorPublic": true,
+                            "x": -1114,
+                            "y": 674
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "7114f5b9-51cb-40e7-94eb-41a0103205a8",
+                          "asset": "11",
+                          "info": {
+                            "editorName": "Emotion_Master_6",
+                            "editorPublic": true,
+                            "x": -1055,
+                            "y": 734
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "42e9ecca-4e68-4f7a-9bf2-4598d101f369",
+                          "asset": "12",
+                          "info": {
+                            "editorName": "Emotion_Master_1",
+                            "editorPublic": true,
+                            "x": 184,
+                            "y": 379
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "id": "3cb9e10d-c993-4e85-b664-58502639e5e0",
+                    "info": {
+                      "editorName": "_grp_Emotion_Client",
+                      "x": 180,
+                      "y": 670,
+                      "setAll": [],
+                      "children": [
+                        {
+                          "type": "atlas-sprite",
+                          "id": "11f6d2df-c50a-4a52-9cbe-53189d78f526",
+                          "asset": "7",
+                          "info": {
+                            "editorName": "Emotion_Client_02",
+                            "editorPublic": true,
+                            "x": -1294,
+                            "y": 495
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "0b3f89c4-783e-4e66-8324-6e8103bccf20",
+                          "asset": "8",
+                          "info": {
+                            "editorName": "Emotion_Client_03",
+                            "editorPublic": true,
+                            "x": -1234,
+                            "y": 555
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "27756c2e-68f3-495f-a892-3bac78d2e945",
+                          "asset": "9",
+                          "info": {
+                            "editorName": "Emotion_Client_04",
+                            "editorPublic": true,
+                            "x": -1174,
+                            "y": 614
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "1656ff49-26d7-49d2-9996-00e1be1ad5fb",
+                          "asset": "10",
+                          "info": {
+                            "editorName": "Emotion_Client_05",
+                            "editorPublic": true,
+                            "x": -1114,
+                            "y": 674
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "8476404d-448e-40a0-89b3-d1084e4b3be5",
+                          "asset": "11",
+                          "info": {
+                            "editorName": "Emotion_Client_06",
+                            "editorPublic": true,
+                            "x": -1055,
+                            "y": 734
+                          }
+                        },
+                        {
+                          "type": "atlas-sprite",
+                          "id": "e963d908-bddb-481b-81ae-75c7e5485397",
+                          "asset": "12",
+                          "info": {
+                            "editorName": "Emotion_Client_01",
+                            "editorPublic": true,
+                            "x": 251,
+                            "y": -289
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "ec41d114-f48e-4755-a0b9-e7b3e0e0f427",
+                    "info": {
+                      "editorName": "txt_client_Name",
+                      "editorPublic": true,
+                      "x": 531,
+                      "y": 513,
+                      "anchor.x": 0.5,
+                      "text": "Player",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff",
+                      "style.align": "CENTER"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "8abb129f-2963-4902-9160-addf22995647",
+                    "info": {
+                      "editorName": "txt_master_Name",
+                      "editorPublic": true,
+                      "x": 71,
+                      "y": 513,
+                      "anchor.x": 0.5,
+                      "text": "Player",
+                      "style.fontSize": 30,
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "f6cc12b2-277a-4ffa-95fb-10b955b604ee",
+                    "info": {
+                      "editorName": "txt_lose",
+                      "editorPublic": true,
+                      "x": 329,
+                      "y": 383,
+                      "text": "<",
+                      "style.fontSize": 100,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "image",
+                    "id": "0de08818-4ec6-4529-b361-d74f48b825ef",
+                    "asset": "6",
+                    "info": {
+                      "editorName": "profile_sample1",
+                      "editorPublic": true,
+                      "x": 588,
+                      "y": 428,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "26660ced-6c97-4858-8378-f18486b3b3aa",
+                    "info": {
+                      "editorName": "txt_win",
+                      "editorPublic": true,
+                      "x": 333,
+                      "y": 381,
+                      "text": ">",
+                      "style.fontSize": 100,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "51ac737e-67dc-4a56-8107-5b9d4ef7ed4d",
+                    "info": {
+                      "editorName": "txt_draw",
+                      "editorPublic": true,
+                      "x": 331,
+                      "y": 381,
+                      "text": "=",
+                      "style.fontSize": 100,
+                      "style.fontWeight": "NORMAL",
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "id": "d3c476ba-3a2c-41e5-9ba1-7a28449d9847",
+              "info": {
+                "editorName": "txt_master_score",
+                "editorPublic": true,
+                "x": 163,
+                "y": 749,
+                "text": "00",
+                "style.fontSize": 40,
+                "style.fill": "#ffffff"
+              }
+            },
+            {
+              "type": "text",
+              "id": "435ea5f1-2368-4a6c-8430-c24b808e0842",
+              "info": {
+                "editorName": "txt_client_Score",
+                "editorPublic": true,
+                "x": 519,
+                "y": 749,
+                "text": "00",
+                "style.fontSize": 40,
+                "style.fill": "#ffffff",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "text",
+              "id": "23c34e4e-9838-4b6a-a123-cda865186af2",
+              "info": {
+                "editorName": "txt_Result",
+                "editorPublic": true,
+                "x": 346,
+                "y": 249,
+                "anchor.x": 0.5,
+                "text": "YOU WON",
+                "style.fontSize": 50,
+                "style.fill": "#ffffff",
+                "style.align": "CENTER"
+              }
+            },
+            {
+              "type": "text",
+              "id": "fefe7274-b3a4-4a1f-8de1-b37985c183b7",
+              "info": {
+                "editorName": "txt_Score",
+                "editorPublic": true,
+                "x": 362,
+                "y": 641,
+                "anchor.x": 0.5,
+                "text": "Score",
+                "style.fontSize": 60,
+                "style.fill": "#ffffff"
+              }
+            },
+            {
+              "type": "button",
+              "id": "1e65e04b-8dac-44cb-8c11-bd1a86006fa1",
+              "asset": "13",
+              "info": {
+                "editorName": "btn_playagain",
+                "editorPublic": true,
+                "x": 98,
+                "y": 942,
+                "scale.x": 0.9,
+                "scale.y": 0.9
+              }
+            },
+            {
+              "type": "button",
+              "id": "4da3bc14-e0d4-497c-8f26-e88ac30d0794",
+              "asset": "13",
+              "info": {
+                "editorName": "btn_share",
+                "editorPublic": true,
+                "x": 189,
+                "y": 845,
+                "scale.x": 0.6,
+                "scale.y": 0.64
+              }
+            },
+            {
+              "type": "text",
+              "id": "674f4ae9-ac2d-4a9f-950c-34d0dedca56c",
+              "info": {
+                "editorName": "txt_Share",
+                "editorPublic": true,
+                "x": 354,
+                "y": 861,
+                "anchor.x": 0.5,
+                "text": "Share",
+                "style.fontSize": 40,
+                "style.fill": "#ffffff"
+              }
+            },
+            {
+              "type": "text",
+              "id": "b7bd263a-eff2-4e19-81ef-3da46dcad108",
+              "info": {
+                "editorName": "txt_playAgain",
+                "editorPublic": true,
+                "x": 341,
+                "y": 972,
+                "anchor.x": 0.5,
+                "text": "Play again",
+                "style.fontSize": 50,
+                "style.fill": "#ffffff"
+              }
+            },
+            {
+              "type": "button",
+              "id": "e0eb1ca9-3ec5-4a35-ab48-52d89684acb5",
+              "asset": "14",
+              "info": {
+                "editorName": "btn_MainMenu",
+                "editorPublic": true,
+                "x": 100,
+                "y": 836
+              }
+            },
+            {
+              "type": "group",
+              "id": "fc650788-befc-4c67-9dd5-0a2b18e58fd4",
+              "info": {
+                "editorName": "_grp_gem_reward",
+                "editorPublic": true,
+                "x": 4,
+                "y": 20,
+                "pivot.x": 0.5,
+                "pivot.y": 0.5,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "text",
+                    "id": "08de98d4-0e59-4228-b2c5-6e0319fd5b02",
+                    "info": {
+                      "editorName": "txt_gems_reward",
+                      "editorPublic": true,
+                      "x": -35,
+                      "y": 546,
+                      "text": "140",
+                      "style.fontSize": 40,
+                      "style.fill": "#00fcff"
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "aa388119-1412-4957-ac93-93b626fda39b",
+                    "asset": "15",
+                    "info": {
+                      "editorName": "diamond",
+                      "x": 26,
+                      "y": 545,
+                      "scale.x": 0.7,
+                      "scale.y": 0.7
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "1a69f525-3d33-4cb0-83e6-cec58d504159",
+              "info": {
+                "editorName": "_grp_button_emotion",
+                "editorPublic": true,
+                "setAll": [],
+                "children": []
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "d0cf52f8-4700-4392-bca4-84c31ea2cf27",
+              "asset": "16",
+              "info": {
+                "editorName": "txt_prev_arrow",
+                "editorPublic": true,
+                "x": 43,
+                "y": 768,
+                "rotation": 1.5707963267948966,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            },
+            {
+              "type": "atlas-sprite",
+              "id": "f0837c10-e95c-40a9-bc73-00dcbbe23e11",
+              "asset": "16",
+              "info": {
+                "editorName": "txt_next_arrow",
+                "editorPublic": true,
+                "x": 675,
+                "y": 768,
+                "rotation": 1.5707963267948966,
+                "scale.y": -1,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "BG_Empty"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "score bar"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "choosemap_bar"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EnvironmentAtlas",
+      "sprite": "avatar bar"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "avatar02"
+    },
+    "5": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "avatar01"
+    },
+    "6": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "profile_sample"
+    },
+    "7": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EmotionAtlas",
+      "sprite": "Emotion_2"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EmotionAtlas",
+      "sprite": "Emotion_3"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EmotionAtlas",
+      "sprite": "Emotion_4"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EmotionAtlas",
+      "sprite": "Emotion_5"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EmotionAtlas",
+      "sprite": "Emotion_6"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EmotionAtlas",
+      "sprite": "Emotion_1"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "button 02"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "btn_Home"
+    },
+    "15": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "diamond"
+    },
+    "16": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "EmotionAtlas",
+      "sprite": "white_Arrow"
+    }
+  },
+  "prefab-table": {}
+}

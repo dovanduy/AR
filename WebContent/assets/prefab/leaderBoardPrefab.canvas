@@ -1,0 +1,289 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "leaderBoardPrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "e98000b9-629a-4965-99f4-e5796db6d6b9",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "c16d8850-80db-47b9-94b3-17236b74657d",
+        "info": {
+          "editorName": "group",
+          "editorPublic": true,
+          "setAll": [],
+          "children": [{
+            "type": "group",
+            "id": "7a2812e0-ce01-4d81-a1e1-24e12c78b126",
+            "info": {
+              "editorName": "_leaderBoard",
+              "editorPublic": true,
+              "setAll": [],
+              "children": [
+                {
+                  "type": "image",
+                  "id": "87c77f11-f71f-4ba6-b674-ada461530f4d",
+                  "asset": "0",
+                  "info": {
+                    "editorName": "menu_BG",
+                    "editorPublic": true,
+                    "scale.y": 1.3
+                  }
+                },
+                {
+                  "type": "group",
+                  "id": "4c0c070e-bf72-4f1a-b50b-080618e8b1d1",
+                  "info": {
+                    "editorName": "_grpuserRankBar",
+                    "editorPublic": true,
+                    "x": 8,
+                    "y": -38,
+                    "setAll": [],
+                    "children": [{
+                      "type": "atlas-sprite",
+                      "id": "b5f2fd56-b9b8-4061-9790-be7d92940529",
+                      "asset": "1",
+                      "info": {
+                        "editorName": "user_bar",
+                        "x": 832,
+                        "y": 214
+                      }
+                    }]
+                  }
+                },
+                {
+                  "type": "button",
+                  "id": "60cbee4f-047b-4ee4-b038-2a2505e122c8",
+                  "asset": "2",
+                  "info": {
+                    "editorName": "btn_global_leaderBoard",
+                    "editorPublic": true,
+                    "x": -1,
+                    "y": 164,
+                    "animations": [
+                      {
+                        "name": "down",
+                        "frameRate": 60,
+                        "frames": ["button 02 leaderBoard"]
+                      },
+                      {
+                        "name": "up",
+                        "frameRate": 60,
+                        "frames": ["button 01 leaderBoard"]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "button",
+                  "id": "94b05ba5-4892-4a5a-8970-e50fc4ae0a89",
+                  "asset": "2",
+                  "info": {
+                    "editorName": "btn_friend_leaderBoard",
+                    "editorPublic": true,
+                    "x": 359,
+                    "y": 164,
+                    "animations": [
+                      {
+                        "name": "down",
+                        "frameRate": 60,
+                        "frames": ["button 02 leaderBoard"]
+                      },
+                      {
+                        "name": "up",
+                        "frameRate": 60,
+                        "frames": ["button 01 leaderBoard"]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "atlas-sprite",
+                  "id": "336bedd5-9a65-4410-9d61-3a5ae4303807",
+                  "asset": "3",
+                  "info": {
+                    "editorName": "rank_bar",
+                    "x": -1,
+                    "y": 279
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "97a7b756-f1a6-41cc-8d31-e582178abae2",
+                  "info": {
+                    "editorName": "txt_global",
+                    "editorPublic": true,
+                    "x": 90,
+                    "y": 194,
+                    "anchor.x": 0.5,
+                    "text": "GLOBAL",
+                    "style.fontSize": 40,
+                    "style.fill": "#ffffff"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "e32df39b-9085-444a-8b9f-3f39bf528b9b",
+                  "info": {
+                    "editorName": "txt_friend",
+                    "editorPublic": true,
+                    "x": 481,
+                    "y": 196,
+                    "anchor.x": 0.5,
+                    "text": "FRIEND",
+                    "style.fontSize": 40,
+                    "style.fill": "#ffffff"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "dbe76e3c-59f2-477d-94f6-0495e1d4ff78",
+                  "info": {
+                    "editorName": "txt_Rank",
+                    "editorPublic": true,
+                    "x": 12,
+                    "y": 288,
+                    "text": "RANK",
+                    "style.fontSize": 25,
+                    "style.fill": "#ffffff",
+                    "style.align": "RIGHT"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "305aa68f-4051-41c8-aac0-4ed0e5cd4974",
+                  "info": {
+                    "editorName": "txt_Name",
+                    "editorPublic": true,
+                    "x": 235,
+                    "y": 288,
+                    "text": "NAME",
+                    "style.fontSize": 25,
+                    "style.fill": "#ffffff"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "152edea6-2afa-412a-b38c-c1a3f1c360bf",
+                  "info": {
+                    "editorName": "txt_HeadShot",
+                    "editorPublic": true,
+                    "x": 444,
+                    "y": 287,
+                    "text": "HEADSHOT",
+                    "style.fontSize": 25,
+                    "style.fill": "#ffffff"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "f726c6ed-1ba2-4f01-a15e-b2e5f54f60ee",
+                  "info": {
+                    "editorName": "txt_Score",
+                    "editorPublic": true,
+                    "x": 612,
+                    "y": 288,
+                    "text": "SCORE",
+                    "style.fontSize": 25,
+                    "style.fill": "#ffffff"
+                  }
+                },
+                {
+                  "type": "text",
+                  "id": "f3fad760-68d6-4241-a71e-123cec190c9a",
+                  "info": {
+                    "editorName": "txt_leaderBoard_title",
+                    "editorPublic": true,
+                    "x": 366,
+                    "y": 89,
+                    "anchor.x": 0.5,
+                    "text": "LEADERBOARD",
+                    "style.fontSize": 40,
+                    "style.fill": "#ffffff"
+                  }
+                },
+                {
+                  "type": "button",
+                  "id": "12a6c9a6-8c67-460a-b7f6-dc7c6ba6308f",
+                  "asset": "4",
+                  "info": {
+                    "editorName": "btn_close_leaderBoard",
+                    "editorPublic": true,
+                    "x": 633,
+                    "y": 76
+                  }
+                }
+              ]
+            }
+          }]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "menu BG"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "user bar"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "button 01 leaderBoard"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "rank bar"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "close button"
+    }
+  },
+  "prefab-table": {}
+}

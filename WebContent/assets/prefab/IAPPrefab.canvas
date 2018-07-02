@@ -1,0 +1,336 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "IAPPrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "ce2c3db6-ddc1-4eb6-abdd-8762f6a31c8f",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "9487e2c9-54e0-409d-8fba-89ddb8529eb1",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "1ebf557d-1cee-497c-97d0-ec64cbbacb75",
+              "asset": "0",
+              "info": {
+                "editorName": "bg_IAP",
+                "y": 159
+              }
+            },
+            {
+              "type": "image",
+              "id": "945a44a2-f3da-4adc-afcf-772ac107cbcf",
+              "asset": "1",
+              "info": {
+                "editorName": "shop_IAP",
+                "y": 299
+              }
+            },
+            {
+              "type": "group",
+              "id": "c2fe0a7c-54f0-4d00-8b73-0ca4b05775a6",
+              "info": {
+                "editorName": "10k",
+                "x": 4,
+                "y": 150,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "d488bc9f-91e4-43e4-8630-ee168c5c346a",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "btn_10k",
+                      "editorPublic": true,
+                      "x": 28,
+                      "y": 363
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "f6461f43-5e02-4cfa-950f-09d242312bec",
+                    "info": {
+                      "editorName": "txt_10k",
+                      "editorPublic": true,
+                      "x": 127,
+                      "y": 405,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "$1.99",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "31ec766d-ad9b-49fb-ba0e-6139ac6a35c4",
+              "info": {
+                "editorName": "30k",
+                "x": 232,
+                "y": 150,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "fc3384b6-0fdb-4693-8798-2a7100e30448",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "btn_30k",
+                      "editorPublic": true,
+                      "x": 28,
+                      "y": 363
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "ad362543-e197-43b9-8beb-c7986708b3ca",
+                    "info": {
+                      "editorName": "txt_30k",
+                      "editorPublic": true,
+                      "x": 128,
+                      "y": 405,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "$4.99",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "4dec2ff5-6883-4a10-9145-9ee22dcb1bc7",
+              "info": {
+                "editorName": "60k",
+                "x": 461,
+                "y": 150,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "0ef06c1f-a78b-493a-8865-07102ef198d8",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "btn_60k",
+                      "editorPublic": true,
+                      "x": 28,
+                      "y": 363
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "a3c240bc-5d4c-4603-ba36-35d45380d0f8",
+                    "info": {
+                      "editorName": "txt_60k",
+                      "editorPublic": true,
+                      "x": 128,
+                      "y": 405,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "$9.99",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "button",
+              "id": "efd5083e-fa17-46f6-a07c-9e5e31e92f3d",
+              "asset": "3",
+              "info": {
+                "editorName": "btn_closeIAP",
+                "editorPublic": true,
+                "x": 619,
+                "y": 182
+              }
+            },
+            {
+              "type": "group",
+              "id": "9729ec64-a23c-4538-a64a-f872928b3b62",
+              "info": {
+                "editorName": "60k1",
+                "x": 1,
+                "y": 452,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "7c8364c9-1cf8-4275-af47-46994e1475a2",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "btn_120k",
+                      "editorPublic": true,
+                      "x": 28,
+                      "y": 363
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "5e8f02f9-47ff-4451-92bb-dd7fd1e9c8e1",
+                    "info": {
+                      "editorName": "txt_60k1",
+                      "editorPublic": true,
+                      "x": 125,
+                      "y": 406,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "$19.99",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "cb4cd07c-dddb-4f4f-b407-64309ac140d9",
+              "info": {
+                "editorName": "60k2",
+                "x": 233,
+                "y": 453,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "0aa88778-27be-4761-b230-8fa8a988c34d",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "btn_240k",
+                      "editorPublic": true,
+                      "x": 28,
+                      "y": 363
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "99f263f1-1cb4-4b34-9472-12d9df027550",
+                    "info": {
+                      "editorName": "txt_60k2",
+                      "editorPublic": true,
+                      "x": 125,
+                      "y": 405,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "$29.99",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "9f4a06cb-258a-4ef0-93aa-0d1b2d858005",
+              "info": {
+                "editorName": "60k3",
+                "x": 460,
+                "y": 453,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "button",
+                    "id": "f0d234c2-2352-4a9f-8645-541908019ccc",
+                    "asset": "2",
+                    "info": {
+                      "editorName": "btn_500k",
+                      "editorPublic": true,
+                      "x": 28,
+                      "y": 363
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "id": "524fd420-e00b-42c0-8051-8f0abc565bfa",
+                    "info": {
+                      "editorName": "txt_60k3",
+                      "editorPublic": true,
+                      "x": 125,
+                      "y": 406,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "text": "$49.99",
+                      "style.fontSize": 35,
+                      "style.fill": "#ffffff"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "bg_IAP"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "shop_IAP"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUD2Atlas",
+      "sprite": "button_IAP"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "HUDAtlas",
+      "sprite": "close button"
+    }
+  },
+  "prefab-table": {}
+}

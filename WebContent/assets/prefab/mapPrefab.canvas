@@ -1,0 +1,127 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "mapPrefab",
+    "sceneWidth": 640,
+    "sceneHeight": 360,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.Create();"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "autoLoad": true,
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "409b6c8f-a900-421f-ac92-b506636a5752",
+    "info": {
+      "editorName": "root",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "8a2a1173-b574-47e4-850d-ac88656e9116",
+        "info": {
+          "editorName": "group",
+          "setAll": [],
+          "children": [
+            {
+              "type": "image",
+              "id": "c821f535-bcb8-4471-a142-edc05fd39000",
+              "asset": "0",
+              "info": {
+                "editorName": "bg_Asia",
+                "editorPublic": true
+              }
+            },
+            {
+              "type": "image",
+              "id": "4002d922-cbce-4457-bd80-d7c34a88ead8",
+              "asset": "1",
+              "info": {
+                "editorName": "bg_Africa",
+                "editorPublic": true
+              }
+            },
+            {
+              "type": "image",
+              "id": "6dc21e19-ee7e-4c47-b076-20fe01ad5045",
+              "asset": "2",
+              "info": {
+                "editorName": "bg_Europe",
+                "editorPublic": true
+              }
+            },
+            {
+              "type": "image",
+              "id": "7fde945e-f06d-4f64-ad50-24784b396463",
+              "asset": "3",
+              "info": {
+                "editorName": "bg_Island",
+                "editorPublic": true
+              }
+            },
+            {
+              "type": "image",
+              "id": "d335bfa8-de53-4c53-b229-1dce875fd53d",
+              "asset": "4",
+              "info": {
+                "editorName": "bg_America",
+                "editorPublic": true
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "bg_Asia"
+    },
+    "1": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "bg_Africa"
+    },
+    "2": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "bg_Europe"
+    },
+    "3": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "bg_Island"
+    },
+    "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "section",
+      "asset": "bg_America"
+    }
+  },
+  "prefab-table": {}
+}
